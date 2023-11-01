@@ -1,0 +1,2018 @@
+[
+	{
+		"country" : "France",
+		"year" : 1960,
+		"inflation_rate" : 4.14,
+		"multiplier" : 11.33,
+		"graph_value" : 100.00,
+		"co2_tpp" : 6.49
+	},
+	{
+		"country" : "France",
+		"year" : 1961,
+		"inflation_rate" : 2.40,
+		"multiplier" : 11.07,
+		"graph_value" : 97.66,
+		"co2_tpp" : 6.84
+	},
+	{
+		"country" : "France",
+		"year" : 1962,
+		"inflation_rate" : 5.33,
+		"multiplier" : 10.51,
+		"graph_value" : 92.71,
+		"co2_tpp" : 7.14
+	},
+	{
+		"country" : "France",
+		"year" : 1963,
+		"inflation_rate" : 5.00,
+		"multiplier" : 10.01,
+		"graph_value" : 88.30,
+		"co2_tpp" : 7.17
+	},
+	{
+		"country" : "France",
+		"year" : 1964,
+		"inflation_rate" : 3.21,
+		"multiplier" : 9.70,
+		"graph_value" : 85.55,
+		"co2_tpp" : 7.74
+	},
+	{
+		"country" : "France",
+		"year" : 1965,
+		"inflation_rate" : 2.70,
+		"multiplier" : 9.44,
+		"graph_value" : 83.30,
+		"co2_tpp" : 7.55
+	},
+	{
+		"country" : "France",
+		"year" : 1966,
+		"inflation_rate" : 2.60,
+		"multiplier" : 9.20,
+		"graph_value" : 81.19,
+		"co2_tpp" : 7.81
+	},
+	{
+		"country" : "France",
+		"year" : 1967,
+		"inflation_rate" : 2.79,
+		"multiplier" : 8.95,
+		"graph_value" : 78.98,
+		"co2_tpp" : 8.23
+	},
+	{
+		"country" : "France",
+		"year" : 1968,
+		"inflation_rate" : 4.54,
+		"multiplier" : 8.56,
+		"graph_value" : 75.55,
+		"co2_tpp" : 8.42
+	},
+	{
+		"country" : "France",
+		"year" : 1969,
+		"inflation_rate" : 6.05,
+		"multiplier" : 8.07,
+		"graph_value" : 71.24,
+		"co2_tpp" : 8.85
+	},
+	{
+		"country" : "France",
+		"year" : 1970,
+		"inflation_rate" : 5.30,
+		"multiplier" : 7.67,
+		"graph_value" : 67.66,
+		"co2_tpp" : 9.11
+	},
+	{
+		"country" : "France",
+		"year" : 1971,
+		"inflation_rate" : 5.40,
+		"multiplier" : 7.28,
+		"graph_value" : 64.19,
+		"co2_tpp" : 9.68
+	},
+	{
+		"country" : "France",
+		"year" : 1972,
+		"inflation_rate" : 6.06,
+		"multiplier" : 6.86,
+		"graph_value" : 60.52,
+		"co2_tpp" : 10.00
+	},
+	{
+		"country" : "France",
+		"year" : 1973,
+		"inflation_rate" : 7.38,
+		"multiplier" : 6.39,
+		"graph_value" : 56.36,
+		"co2_tpp" : 10.40
+	},
+	{
+		"country" : "France",
+		"year" : 1974,
+		"inflation_rate" : 13.65,
+		"multiplier" : 5.62,
+		"graph_value" : 49.59,
+		"co2_tpp" : 9.98
+	},
+	{
+		"country" : "France",
+		"year" : 1975,
+		"inflation_rate" : 11.69,
+		"multiplier" : 5.03,
+		"graph_value" : 44.40,
+		"co2_tpp" : 9.19
+	},
+	{
+		"country" : "France",
+		"year" : 1976,
+		"inflation_rate" : 9.63,
+		"multiplier" : 4.59,
+		"graph_value" : 40.51,
+		"co2_tpp" : 9.94
+	},
+	{
+		"country" : "France",
+		"year" : 1977,
+		"inflation_rate" : 9.49,
+		"multiplier" : 4.19,
+		"graph_value" : 36.99,
+		"co2_tpp" : 9.58
+	},
+	{
+		"country" : "France",
+		"year" : 1978,
+		"inflation_rate" : 9.25,
+		"multiplier" : 3.84,
+		"graph_value" : 33.86,
+		"co2_tpp" : 9.94
+	},
+	{
+		"country" : "France",
+		"year" : 1979,
+		"inflation_rate" : 10.65,
+		"multiplier" : 3.47,
+		"graph_value" : 30.60,
+		"co2_tpp" : 9.96
+	},
+	{
+		"country" : "France",
+		"year" : 1980,
+		"inflation_rate" : 13.56,
+		"multiplier" : 3.05,
+		"graph_value" : 26.95,
+		"co2_tpp" : 9.52
+	},
+	{
+		"country" : "France",
+		"year" : 1981,
+		"inflation_rate" : 13.31,
+		"multiplier" : 2.70,
+		"graph_value" : 23.78,
+		"co2_tpp" : 8.50
+	},
+	{
+		"country" : "France",
+		"year" : 1982,
+		"inflation_rate" : 11.98,
+		"multiplier" : 2.41,
+		"graph_value" : 21.24,
+		"co2_tpp" : 8.11
+	},
+	{
+		"country" : "France",
+		"year" : 1983,
+		"inflation_rate" : 9.46,
+		"multiplier" : 2.20,
+		"graph_value" : 19.40,
+		"co2_tpp" : 7.75
+	},
+	{
+		"country" : "France",
+		"year" : 1984,
+		"inflation_rate" : 7.67,
+		"multiplier" : 2.04,
+		"graph_value" : 18.02,
+		"co2_tpp" : 7.51
+	},
+	{
+		"country" : "France",
+		"year" : 1985,
+		"inflation_rate" : 5.83,
+		"multiplier" : 1.93,
+		"graph_value" : 17.03,
+		"co2_tpp" : 7.35
+	},
+	{
+		"country" : "France",
+		"year" : 1986,
+		"inflation_rate" : 2.54,
+		"multiplier" : 1.88,
+		"graph_value" : 16.61,
+		"co2_tpp" : 7.05
+	},
+	{
+		"country" : "France",
+		"year" : 1987,
+		"inflation_rate" : 3.29,
+		"multiplier" : 1.82,
+		"graph_value" : 16.08,
+		"co2_tpp" : 6.97
+	},
+	{
+		"country" : "France",
+		"year" : 1988,
+		"inflation_rate" : 2.70,
+		"multiplier" : 1.77,
+		"graph_value" : 15.65,
+		"co2_tpp" : 6.90
+	},
+	{
+		"country" : "France",
+		"year" : 1989,
+		"inflation_rate" : 3.50,
+		"multiplier" : 1.71,
+		"graph_value" : 15.12,
+		"co2_tpp" : 7.12
+	},
+	{
+		"country" : "France",
+		"year" : 1990,
+		"inflation_rate" : 3.19,
+		"multiplier" : 1.66,
+		"graph_value" : 14.66,
+		"co2_tpp" : 6.97
+	},
+	{
+		"country" : "France",
+		"year" : 1991,
+		"inflation_rate" : 3.21,
+		"multiplier" : 1.61,
+		"graph_value" : 14.20,
+		"co2_tpp" : 7.39
+	},
+	{
+		"country" : "France",
+		"year" : 1992,
+		"inflation_rate" : 2.36,
+		"multiplier" : 1.57,
+		"graph_value" : 13.87,
+		"co2_tpp" : 7.15
+	},
+	{
+		"country" : "France",
+		"year" : 1993,
+		"inflation_rate" : 2.10,
+		"multiplier" : 1.54,
+		"graph_value" : 13.59,
+		"co2_tpp" : 6.80
+	},
+	{
+		"country" : "France",
+		"year" : 1994,
+		"inflation_rate" : 1.66,
+		"multiplier" : 1.51,
+		"graph_value" : 13.36,
+		"co2_tpp" : 6.67
+	},
+	{
+		"country" : "France",
+		"year" : 1995,
+		"inflation_rate" : 1.80,
+		"multiplier" : 1.49,
+		"graph_value" : 13.13,
+		"co2_tpp" : 6.73
+	},
+	{
+		"country" : "France",
+		"year" : 1996,
+		"inflation_rate" : 1.98,
+		"multiplier" : 1.46,
+		"graph_value" : 12.87,
+		"co2_tpp" : 6.97
+	},
+	{
+		"country" : "France",
+		"year" : 1997,
+		"inflation_rate" : 1.20,
+		"multiplier" : 1.44,
+		"graph_value" : 12.72,
+		"co2_tpp" : 6.81
+	},
+	{
+		"country" : "France",
+		"year" : 1998,
+		"inflation_rate" : 0.65,
+		"multiplier" : 1.43,
+		"graph_value" : 12.64,
+		"co2_tpp" : 7.12
+	},
+	{
+		"country" : "France",
+		"year" : 1999,
+		"inflation_rate" : 0.54,
+		"multiplier" : 1.42,
+		"graph_value" : 12.57,
+		"co2_tpp" : 7.06
+	},
+	{
+		"country" : "France",
+		"year" : 2000,
+		"inflation_rate" : 1.68,
+		"multiplier" : 1.40,
+		"graph_value" : 12.36,
+		"co2_tpp" : 6.93
+	},
+	{
+		"country" : "France",
+		"year" : 2001,
+		"inflation_rate" : 1.63,
+		"multiplier" : 1.38,
+		"graph_value" : 12.16,
+		"co2_tpp" : 6.97
+	},
+	{
+		"country" : "France",
+		"year" : 2002,
+		"inflation_rate" : 1.92,
+		"multiplier" : 1.35,
+		"graph_value" : 11.94,
+		"co2_tpp" : 6.87
+	},
+	{
+		"country" : "France",
+		"year" : 2003,
+		"inflation_rate" : 2.10,
+		"multiplier" : 1.32,
+		"graph_value" : 11.69,
+		"co2_tpp" : 6.91
+	},
+	{
+		"country" : "France",
+		"year" : 2004,
+		"inflation_rate" : 2.14,
+		"multiplier" : 1.30,
+		"graph_value" : 11.44,
+		"co2_tpp" : 6.88
+	},
+	{
+		"country" : "France",
+		"year" : 2005,
+		"inflation_rate" : 1.75,
+		"multiplier" : 1.27,
+		"graph_value" : 11.25,
+		"co2_tpp" : 6.88
+	},
+	{
+		"country" : "France",
+		"year" : 2006,
+		"inflation_rate" : 1.68,
+		"multiplier" : 1.25,
+		"graph_value" : 11.06,
+		"co2_tpp" : 6.67
+	},
+	{
+		"country" : "France",
+		"year" : 2007,
+		"inflation_rate" : 1.49,
+		"multiplier" : 1.24,
+		"graph_value" : 10.90,
+		"co2_tpp" : 6.47
+	},
+	{
+		"country" : "France",
+		"year" : 2008,
+		"inflation_rate" : 2.81,
+		"multiplier" : 1.20,
+		"graph_value" : 10.60,
+		"co2_tpp" : 6.33
+	},
+	{
+		"country" : "France",
+		"year" : 2009,
+		"inflation_rate" : 0.09,
+		"multiplier" : 1.20,
+		"graph_value" : 10.59,
+		"co2_tpp" : 5.98
+	},
+	{
+		"country" : "France",
+		"year" : 2010,
+		"inflation_rate" : 1.53,
+		"multiplier" : 1.18,
+		"graph_value" : 10.43,
+		"co2_tpp" : 6.03
+	},
+	{
+		"country" : "France",
+		"year" : 2011,
+		"inflation_rate" : 2.11,
+		"multiplier" : 1.16,
+		"graph_value" : 10.22,
+		"co2_tpp" : 5.65
+	},
+	{
+		"country" : "France",
+		"year" : 2012,
+		"inflation_rate" : 1.95,
+		"multiplier" : 1.14,
+		"graph_value" : 10.02,
+		"co2_tpp" : 5.66
+	},
+	{
+		"country" : "France",
+		"year" : 2013,
+		"inflation_rate" : 0.86,
+		"multiplier" : 1.13,
+		"graph_value" : 9.94,
+		"co2_tpp" : 5.66
+	},
+	{
+		"country" : "France",
+		"year" : 2014,
+		"inflation_rate" : 0.51,
+		"multiplier" : 1.12,
+		"graph_value" : 9.89,
+		"co2_tpp" : 5.14
+	},
+	{
+		"country" : "France",
+		"year" : 2015,
+		"inflation_rate" : 0.04,
+		"multiplier" : 1.12,
+		"graph_value" : 9.88,
+		"co2_tpp" : 5.20
+	},
+	{
+		"country" : "France",
+		"year" : 2016,
+		"inflation_rate" : 0.18,
+		"multiplier" : 1.12,
+		"graph_value" : 9.86,
+		"co2_tpp" : 5.23
+	},
+	{
+		"country" : "France",
+		"year" : 2017,
+		"inflation_rate" : 1.03,
+		"multiplier" : 1.11,
+		"graph_value" : 9.76,
+		"co2_tpp" : 5.26
+	},
+	{
+		"country" : "France",
+		"year" : 2018,
+		"inflation_rate" : 1.85,
+		"multiplier" : 1.09,
+		"graph_value" : 9.59,
+		"co2_tpp" : 5.02
+	},
+	{
+		"country" : "France",
+		"year" : 2019,
+		"inflation_rate" : 1.11,
+		"multiplier" : 1.07,
+		"graph_value" : 9.48,
+		"co2_tpp" : 4.91
+	},
+	{
+		"country" : "France",
+		"year" : 2020,
+		"inflation_rate" : 0.48,
+		"multiplier" : 1.07,
+		"graph_value" : 9.44,
+		"co2_tpp" : 4.34
+	},
+	{
+		"country" : "France",
+		"year" : 2021,
+		"inflation_rate" : 1.64,
+		"multiplier" : 1.05,
+		"graph_value" : 9.28,
+		"co2_tpp" : 4.74
+	},
+	{
+		"country" : "France",
+		"year" : 2022,
+		"inflation_rate" : 5.22,
+		"multiplier" : 1.00,
+		"graph_value" : 8.82,
+		"co2_tpp" : 4.74
+	},
+	{
+		"country" : "Italy",
+		"year" : 1960,
+		"inflation_rate" : 2.35,
+		"multiplier" : 29.36,
+		"graph_value" : 100.00,
+		"co2_tpp" : 2.21
+	},
+	{
+		"country" : "Italy",
+		"year" : 1961,
+		"inflation_rate" : 2.05,
+		"multiplier" : 28.77,
+		"graph_value" : 97.99,
+		"co2_tpp" : 2.50
+	},
+	{
+		"country" : "Italy",
+		"year" : 1962,
+		"inflation_rate" : 4.69,
+		"multiplier" : 27.48,
+		"graph_value" : 93.60,
+		"co2_tpp" : 2.92
+	},
+	{
+		"country" : "Italy",
+		"year" : 1963,
+		"inflation_rate" : 7.45,
+		"multiplier" : 25.57,
+		"graph_value" : 87.11,
+		"co2_tpp" : 3.25
+	},
+	{
+		"country" : "Italy",
+		"year" : 1964,
+		"inflation_rate" : 5.91,
+		"multiplier" : 24.14,
+		"graph_value" : 82.24,
+		"co2_tpp" : 3.45
+	},
+	{
+		"country" : "Italy",
+		"year" : 1965,
+		"inflation_rate" : 4.52,
+		"multiplier" : 23.10,
+		"graph_value" : 78.69,
+		"co2_tpp" : 3.68
+	},
+	{
+		"country" : "Italy",
+		"year" : 1966,
+		"inflation_rate" : 2.35,
+		"multiplier" : 22.57,
+		"graph_value" : 76.88,
+		"co2_tpp" : 4.12
+	},
+	{
+		"country" : "Italy",
+		"year" : 1967,
+		"inflation_rate" : 3.73,
+		"multiplier" : 21.76,
+		"graph_value" : 74.12,
+		"co2_tpp" : 4.48
+	},
+	{
+		"country" : "Italy",
+		"year" : 1968,
+		"inflation_rate" : 1.28,
+		"multiplier" : 21.48,
+		"graph_value" : 73.18,
+		"co2_tpp" : 4.73
+	},
+	{
+		"country" : "Italy",
+		"year" : 1969,
+		"inflation_rate" : 2.66,
+		"multiplier" : 20.93,
+		"graph_value" : 71.29,
+		"co2_tpp" : 5.09
+	},
+	{
+		"country" : "Italy",
+		"year" : 1970,
+		"inflation_rate" : 4.97,
+		"multiplier" : 19.94,
+		"graph_value" : 67.91,
+		"co2_tpp" : 5.56
+	},
+	{
+		"country" : "Italy",
+		"year" : 1971,
+		"inflation_rate" : 4.79,
+		"multiplier" : 19.03,
+		"graph_value" : 64.81,
+		"co2_tpp" : 5.80
+	},
+	{
+		"country" : "Italy",
+		"year" : 1972,
+		"inflation_rate" : 5.75,
+		"multiplier" : 17.99,
+		"graph_value" : 61.28,
+		"co2_tpp" : 6.08
+	},
+	{
+		"country" : "Italy",
+		"year" : 1973,
+		"inflation_rate" : 10.80,
+		"multiplier" : 16.24,
+		"graph_value" : 55.31,
+		"co2_tpp" : 6.50
+	},
+	{
+		"country" : "Italy",
+		"year" : 1974,
+		"inflation_rate" : 19.16,
+		"multiplier" : 13.63,
+		"graph_value" : 46.42,
+		"co2_tpp" : 6.54
+	},
+	{
+		"country" : "Italy",
+		"year" : 1975,
+		"inflation_rate" : 16.95,
+		"multiplier" : 11.65,
+		"graph_value" : 39.69,
+		"co2_tpp" : 6.19
+	},
+	{
+		"country" : "Italy",
+		"year" : 1976,
+		"inflation_rate" : 16.61,
+		"multiplier" : 9.99,
+		"graph_value" : 34.04,
+		"co2_tpp" : 6.60
+	},
+	{
+		"country" : "Italy",
+		"year" : 1977,
+		"inflation_rate" : 17.13,
+		"multiplier" : 8.53,
+		"graph_value" : 29.06,
+		"co2_tpp" : 6.37
+	},
+	{
+		"country" : "Italy",
+		"year" : 1978,
+		"inflation_rate" : 12.09,
+		"multiplier" : 7.61,
+		"graph_value" : 25.92,
+		"co2_tpp" : 6.64
+	},
+	{
+		"country" : "Italy",
+		"year" : 1979,
+		"inflation_rate" : 14.80,
+		"multiplier" : 6.63,
+		"graph_value" : 22.58,
+		"co2_tpp" : 6.87
+	},
+	{
+		"country" : "Italy",
+		"year" : 1980,
+		"inflation_rate" : 21.06,
+		"multiplier" : 5.48,
+		"graph_value" : 18.65,
+		"co2_tpp" : 6.86
+	},
+	{
+		"country" : "Italy",
+		"year" : 1981,
+		"inflation_rate" : 17.97,
+		"multiplier" : 4.64,
+		"graph_value" : 15.81,
+		"co2_tpp" : 6.64
+	},
+	{
+		"country" : "Italy",
+		"year" : 1982,
+		"inflation_rate" : 16.48,
+		"multiplier" : 3.99,
+		"graph_value" : 13.57,
+		"co2_tpp" : 6.48
+	},
+	{
+		"country" : "Italy",
+		"year" : 1983,
+		"inflation_rate" : 14.65,
+		"multiplier" : 3.48,
+		"graph_value" : 11.84,
+		"co2_tpp" : 6.33
+	},
+	{
+		"country" : "Italy",
+		"year" : 1984,
+		"inflation_rate" : 10.79,
+		"multiplier" : 3.14,
+		"graph_value" : 10.69,
+		"co2_tpp" : 6.44
+	},
+	{
+		"country" : "Italy",
+		"year" : 1985,
+		"inflation_rate" : 9.21,
+		"multiplier" : 2.87,
+		"graph_value" : 9.79,
+		"co2_tpp" : 6.51
+	},
+	{
+		"country" : "Italy",
+		"year" : 1986,
+		"inflation_rate" : 5.82,
+		"multiplier" : 2.71,
+		"graph_value" : 9.25,
+		"co2_tpp" : 6.41
+	},
+	{
+		"country" : "Italy",
+		"year" : 1987,
+		"inflation_rate" : 4.75,
+		"multiplier" : 2.59,
+		"graph_value" : 8.83,
+		"co2_tpp" : 6.71
+	},
+	{
+		"country" : "Italy",
+		"year" : 1988,
+		"inflation_rate" : 5.06,
+		"multiplier" : 2.47,
+		"graph_value" : 8.40,
+		"co2_tpp" : 6.81
+	},
+	{
+		"country" : "Italy",
+		"year" : 1989,
+		"inflation_rate" : 6.26,
+		"multiplier" : 2.32,
+		"graph_value" : 7.91,
+		"co2_tpp" : 7.14
+	},
+	{
+		"country" : "Italy",
+		"year" : 1990,
+		"inflation_rate" : 6.46,
+		"multiplier" : 2.18,
+		"graph_value" : 7.43,
+		"co2_tpp" : 7.74
+	},
+	{
+		"country" : "Italy",
+		"year" : 1991,
+		"inflation_rate" : 6.25,
+		"multiplier" : 2.05,
+		"graph_value" : 6.99,
+		"co2_tpp" : 7.73
+	},
+	{
+		"country" : "Italy",
+		"year" : 1992,
+		"inflation_rate" : 5.27,
+		"multiplier" : 1.95,
+		"graph_value" : 6.64,
+		"co2_tpp" : 7.73
+	},
+	{
+		"country" : "Italy",
+		"year" : 1993,
+		"inflation_rate" : 4.63,
+		"multiplier" : 1.86,
+		"graph_value" : 6.35,
+		"co2_tpp" : 7.59
+	},
+	{
+		"country" : "Italy",
+		"year" : 1994,
+		"inflation_rate" : 4.05,
+		"multiplier" : 1.79,
+		"graph_value" : 6.10,
+		"co2_tpp" : 7.49
+	},
+	{
+		"country" : "Italy",
+		"year" : 1995,
+		"inflation_rate" : 5.24,
+		"multiplier" : 1.70,
+		"graph_value" : 5.80,
+		"co2_tpp" : 7.91
+	},
+	{
+		"country" : "Italy",
+		"year" : 1996,
+		"inflation_rate" : 4.01,
+		"multiplier" : 1.64,
+		"graph_value" : 5.57,
+		"co2_tpp" : 7.80
+	},
+	{
+		"country" : "Italy",
+		"year" : 1997,
+		"inflation_rate" : 2.04,
+		"multiplier" : 1.60,
+		"graph_value" : 5.46,
+		"co2_tpp" : 7.90
+	},
+	{
+		"country" : "Italy",
+		"year" : 1998,
+		"inflation_rate" : 1.96,
+		"multiplier" : 1.57,
+		"graph_value" : 5.36,
+		"co2_tpp" : 8.11
+	},
+	{
+		"country" : "Italy",
+		"year" : 1999,
+		"inflation_rate" : 1.66,
+		"multiplier" : 1.55,
+		"graph_value" : 5.27,
+		"co2_tpp" : 8.19
+	},
+	{
+		"country" : "Italy",
+		"year" : 2000,
+		"inflation_rate" : 2.54,
+		"multiplier" : 1.51,
+		"graph_value" : 5.14,
+		"co2_tpp" : 8.26
+	},
+	{
+		"country" : "Italy",
+		"year" : 2001,
+		"inflation_rate" : 2.79,
+		"multiplier" : 1.47,
+		"graph_value" : 5.00,
+		"co2_tpp" : 8.26
+	},
+	{
+		"country" : "Italy",
+		"year" : 2002,
+		"inflation_rate" : 2.47,
+		"multiplier" : 1.43,
+		"graph_value" : 4.88,
+		"co2_tpp" : 8.37
+	},
+	{
+		"country" : "Italy",
+		"year" : 2003,
+		"inflation_rate" : 2.67,
+		"multiplier" : 1.40,
+		"graph_value" : 4.75,
+		"co2_tpp" : 8.64
+	},
+	{
+		"country" : "Italy",
+		"year" : 2004,
+		"inflation_rate" : 2.21,
+		"multiplier" : 1.37,
+		"graph_value" : 4.65,
+		"co2_tpp" : 8.67
+	},
+	{
+		"country" : "Italy",
+		"year" : 2005,
+		"inflation_rate" : 1.99,
+		"multiplier" : 1.34,
+		"graph_value" : 4.56,
+		"co2_tpp" : 8.63
+	},
+	{
+		"country" : "Italy",
+		"year" : 2006,
+		"inflation_rate" : 2.09,
+		"multiplier" : 1.31,
+		"graph_value" : 4.47,
+		"co2_tpp" : 8.50
+	},
+	{
+		"country" : "Italy",
+		"year" : 2007,
+		"inflation_rate" : 1.83,
+		"multiplier" : 1.29,
+		"graph_value" : 4.39,
+		"co2_tpp" : 8.35
+	},
+	{
+		"country" : "Italy",
+		"year" : 2008,
+		"inflation_rate" : 3.35,
+		"multiplier" : 1.25,
+		"graph_value" : 4.24,
+		"co2_tpp" : 8.09
+	},
+	{
+		"country" : "Italy",
+		"year" : 2009,
+		"inflation_rate" : 0.77,
+		"multiplier" : 1.24,
+		"graph_value" : 4.21,
+		"co2_tpp" : 7.13
+	},
+	{
+		"country" : "Italy",
+		"year" : 2010,
+		"inflation_rate" : 1.53,
+		"multiplier" : 1.22,
+		"graph_value" : 4.15,
+		"co2_tpp" : 7.29
+	},
+	{
+		"country" : "Italy",
+		"year" : 2011,
+		"inflation_rate" : 2.78,
+		"multiplier" : 1.18,
+		"graph_value" : 4.04,
+		"co2_tpp" : 7.07
+	},
+	{
+		"country" : "Italy",
+		"year" : 2012,
+		"inflation_rate" : 3.04,
+		"multiplier" : 1.15,
+		"graph_value" : 3.92,
+		"co2_tpp" : 6.71
+	},
+	{
+		"country" : "Italy",
+		"year" : 2013,
+		"inflation_rate" : 1.22,
+		"multiplier" : 1.14,
+		"graph_value" : 3.87,
+		"co2_tpp" : 6.13
+	},
+	{
+		"country" : "Italy",
+		"year" : 2014,
+		"inflation_rate" : 0.24,
+		"multiplier" : 1.13,
+		"graph_value" : 3.86,
+		"co2_tpp" : 5.79
+	},
+	{
+		"country" : "Italy",
+		"year" : 2015,
+		"inflation_rate" : 0.04,
+		"multiplier" : 1.13,
+		"graph_value" : 3.86,
+		"co2_tpp" : 6.00
+	},
+	{
+		"country" : "Italy",
+		"year" : 2016,
+		"inflation_rate" : -0.09,
+		"multiplier" : 1.13,
+		"graph_value" : 3.86,
+		"co2_tpp" : 5.96
+	},
+	{
+		"country" : "Italy",
+		"year" : 2017,
+		"inflation_rate" : 1.23,
+		"multiplier" : 1.12,
+		"graph_value" : 3.82,
+		"co2_tpp" : 5.88
+	},
+	{
+		"country" : "Italy",
+		"year" : 2018,
+		"inflation_rate" : 1.14,
+		"multiplier" : 1.11,
+		"graph_value" : 3.77,
+		"co2_tpp" : 5.83
+	},
+	{
+		"country" : "Italy",
+		"year" : 2019,
+		"inflation_rate" : 0.61,
+		"multiplier" : 1.10,
+		"graph_value" : 3.75,
+		"co2_tpp" : 5.68
+	},
+	{
+		"country" : "Italy",
+		"year" : 2020,
+		"inflation_rate" : -0.14,
+		"multiplier" : 1.10,
+		"graph_value" : 3.75,
+		"co2_tpp" : 5.08
+	},
+	{
+		"country" : "Italy",
+		"year" : 2021,
+		"inflation_rate" : 1.87,
+		"multiplier" : 1.08,
+		"graph_value" : 3.69,
+		"co2_tpp" : 5.55
+	},
+	{
+		"country" : "Italy",
+		"year" : 2022,
+		"inflation_rate" : 8.20,
+		"multiplier" : 1.00,
+		"graph_value" : 3.41,
+		"co2_tpp" : 5.55
+	},
+	{
+		"country" : "UK",
+		"year" : 1960,
+		"inflation_rate" : 1.00,
+		"multiplier" : 21.31,
+		"graph_value" : 100.00,
+		"co2_tpp" : 11.12
+	},
+	{
+		"country" : "UK",
+		"year" : 1961,
+		"inflation_rate" : 3.45,
+		"multiplier" : 20.60,
+		"graph_value" : 96.67,
+		"co2_tpp" : 11.14
+	},
+	{
+		"country" : "UK",
+		"year" : 1962,
+		"inflation_rate" : 4.20,
+		"multiplier" : 19.77,
+		"graph_value" : 92.77,
+		"co2_tpp" : 11.15
+	},
+	{
+		"country" : "UK",
+		"year" : 1963,
+		"inflation_rate" : 2.02,
+		"multiplier" : 19.38,
+		"graph_value" : 90.94,
+		"co2_tpp" : 11.28
+	},
+	{
+		"country" : "UK",
+		"year" : 1964,
+		"inflation_rate" : 3.28,
+		"multiplier" : 18.76,
+		"graph_value" : 88.05,
+		"co2_tpp" : 11.29
+	},
+	{
+		"country" : "UK",
+		"year" : 1965,
+		"inflation_rate" : 4.77,
+		"multiplier" : 17.91,
+		"graph_value" : 84.04,
+		"co2_tpp" : 11.47
+	},
+	{
+		"country" : "UK",
+		"year" : 1966,
+		"inflation_rate" : 3.91,
+		"multiplier" : 17.23,
+		"graph_value" : 80.88,
+		"co2_tpp" : 11.33
+	},
+	{
+		"country" : "UK",
+		"year" : 1967,
+		"inflation_rate" : 2.48,
+		"multiplier" : 16.81,
+		"graph_value" : 78.92,
+		"co2_tpp" : 10.79
+	},
+	{
+		"country" : "UK",
+		"year" : 1968,
+		"inflation_rate" : 4.70,
+		"multiplier" : 16.06,
+		"graph_value" : 75.38,
+		"co2_tpp" : 10.99
+	},
+	{
+		"country" : "UK",
+		"year" : 1969,
+		"inflation_rate" : 5.45,
+		"multiplier" : 15.23,
+		"graph_value" : 71.48,
+		"co2_tpp" : 11.34
+	},
+	{
+		"country" : "UK",
+		"year" : 1970,
+		"inflation_rate" : 6.37,
+		"multiplier" : 14.32,
+		"graph_value" : 67.20,
+		"co2_tpp" : 11.73
+	},
+	{
+		"country" : "UK",
+		"year" : 1971,
+		"inflation_rate" : 9.44,
+		"multiplier" : 13.08,
+		"graph_value" : 61.40,
+		"co2_tpp" : 11.82
+	},
+	{
+		"country" : "UK",
+		"year" : 1972,
+		"inflation_rate" : 7.07,
+		"multiplier" : 12.22,
+		"graph_value" : 57.35,
+		"co2_tpp" : 11.56
+	},
+	{
+		"country" : "UK",
+		"year" : 1973,
+		"inflation_rate" : 9.20,
+		"multiplier" : 11.19,
+		"graph_value" : 52.52,
+		"co2_tpp" : 11.74
+	},
+	{
+		"country" : "UK",
+		"year" : 1974,
+		"inflation_rate" : 16.04,
+		"multiplier" : 9.64,
+		"graph_value" : 45.26,
+		"co2_tpp" : 10.98
+	},
+	{
+		"country" : "UK",
+		"year" : 1975,
+		"inflation_rate" : 24.21,
+		"multiplier" : 7.76,
+		"graph_value" : 36.44,
+		"co2_tpp" : 10.72
+	},
+	{
+		"country" : "UK",
+		"year" : 1976,
+		"inflation_rate" : 16.56,
+		"multiplier" : 6.66,
+		"graph_value" : 31.26,
+		"co2_tpp" : 10.64
+	},
+	{
+		"country" : "UK",
+		"year" : 1977,
+		"inflation_rate" : 15.84,
+		"multiplier" : 5.75,
+		"graph_value" : 26.99,
+		"co2_tpp" : 10.75
+	},
+	{
+		"country" : "UK",
+		"year" : 1978,
+		"inflation_rate" : 8.26,
+		"multiplier" : 5.31,
+		"graph_value" : 24.93,
+		"co2_tpp" : 10.75
+	},
+	{
+		"country" : "UK",
+		"year" : 1979,
+		"inflation_rate" : 13.42,
+		"multiplier" : 4.68,
+		"graph_value" : 21.98,
+		"co2_tpp" : 11.45
+	},
+	{
+		"country" : "UK",
+		"year" : 1980,
+		"inflation_rate" : 17.97,
+		"multiplier" : 3.97,
+		"graph_value" : 18.63,
+		"co2_tpp" : 10.28
+	},
+	{
+		"country" : "UK",
+		"year" : 1981,
+		"inflation_rate" : 11.88,
+		"multiplier" : 3.55,
+		"graph_value" : 16.65,
+		"co2_tpp" : 9.94
+	},
+	{
+		"country" : "UK",
+		"year" : 1982,
+		"inflation_rate" : 8.60,
+		"multiplier" : 3.27,
+		"graph_value" : 15.33,
+		"co2_tpp" : 9.71
+	},
+	{
+		"country" : "UK",
+		"year" : 1983,
+		"inflation_rate" : 4.61,
+		"multiplier" : 3.12,
+		"graph_value" : 14.66,
+		"co2_tpp" : 9.65
+	},
+	{
+		"country" : "UK",
+		"year" : 1984,
+		"inflation_rate" : 4.96,
+		"multiplier" : 2.98,
+		"graph_value" : 13.97,
+		"co2_tpp" : 9.35
+	},
+	{
+		"country" : "UK",
+		"year" : 1985,
+		"inflation_rate" : 6.07,
+		"multiplier" : 2.81,
+		"graph_value" : 13.17,
+		"co2_tpp" : 9.88
+	},
+	{
+		"country" : "UK",
+		"year" : 1986,
+		"inflation_rate" : 3.43,
+		"multiplier" : 2.71,
+		"graph_value" : 12.73,
+		"co2_tpp" : 10.02
+	},
+	{
+		"country" : "UK",
+		"year" : 1987,
+		"inflation_rate" : 4.15,
+		"multiplier" : 2.60,
+		"graph_value" : 12.22,
+		"co2_tpp" : 10.06
+	},
+	{
+		"country" : "UK",
+		"year" : 1988,
+		"inflation_rate" : 4.16,
+		"multiplier" : 2.50,
+		"graph_value" : 11.73,
+		"co2_tpp" : 10.01
+	},
+	{
+		"country" : "UK",
+		"year" : 1989,
+		"inflation_rate" : 5.76,
+		"multiplier" : 2.36,
+		"graph_value" : 11.10,
+		"co2_tpp" : 10.19
+	},
+	{
+		"country" : "UK",
+		"year" : 1990,
+		"inflation_rate" : 8.06,
+		"multiplier" : 2.19,
+		"graph_value" : 10.27,
+		"co2_tpp" : 10.52
+	},
+	{
+		"country" : "UK",
+		"year" : 1991,
+		"inflation_rate" : 7.46,
+		"multiplier" : 2.04,
+		"graph_value" : 9.55,
+		"co2_tpp" : 10.62
+	},
+	{
+		"country" : "UK",
+		"year" : 1992,
+		"inflation_rate" : 4.59,
+		"multiplier" : 1.95,
+		"graph_value" : 9.14,
+		"co2_tpp" : 10.33
+	},
+	{
+		"country" : "UK",
+		"year" : 1993,
+		"inflation_rate" : 2.56,
+		"multiplier" : 1.90,
+		"graph_value" : 8.91,
+		"co2_tpp" : 10.05
+	},
+	{
+		"country" : "UK",
+		"year" : 1994,
+		"inflation_rate" : 2.22,
+		"multiplier" : 1.86,
+		"graph_value" : 8.71,
+		"co2_tpp" : 9.93
+	},
+	{
+		"country" : "UK",
+		"year" : 1995,
+		"inflation_rate" : 2.70,
+		"multiplier" : 1.81,
+		"graph_value" : 8.49,
+		"co2_tpp" : 9.77
+	},
+	{
+		"country" : "UK",
+		"year" : 1996,
+		"inflation_rate" : 2.85,
+		"multiplier" : 1.76,
+		"graph_value" : 8.25,
+		"co2_tpp" : 10.10
+	},
+	{
+		"country" : "UK",
+		"year" : 1997,
+		"inflation_rate" : 2.20,
+		"multiplier" : 1.72,
+		"graph_value" : 8.07,
+		"co2_tpp" : 9.66
+	},
+	{
+		"country" : "UK",
+		"year" : 1998,
+		"inflation_rate" : 1.82,
+		"multiplier" : 1.69,
+		"graph_value" : 7.93,
+		"co2_tpp" : 9.73
+	},
+	{
+		"country" : "UK",
+		"year" : 1999,
+		"inflation_rate" : 1.75,
+		"multiplier" : 1.66,
+		"graph_value" : 7.79,
+		"co2_tpp" : 9.58
+	},
+	{
+		"country" : "UK",
+		"year" : 2000,
+		"inflation_rate" : 1.18,
+		"multiplier" : 1.64,
+		"graph_value" : 7.70,
+		"co2_tpp" : 9.67
+	},
+	{
+		"country" : "UK",
+		"year" : 2001,
+		"inflation_rate" : 1.53,
+		"multiplier" : 1.62,
+		"graph_value" : 7.58,
+		"co2_tpp" : 9.78
+	},
+	{
+		"country" : "UK",
+		"year" : 2002,
+		"inflation_rate" : 1.52,
+		"multiplier" : 1.59,
+		"graph_value" : 7.47,
+		"co2_tpp" : 9.44
+	},
+	{
+		"country" : "UK",
+		"year" : 2003,
+		"inflation_rate" : 1.38,
+		"multiplier" : 1.57,
+		"graph_value" : 7.37,
+		"co2_tpp" : 9.58
+	},
+	{
+		"country" : "UK",
+		"year" : 2004,
+		"inflation_rate" : 1.39,
+		"multiplier" : 1.55,
+		"graph_value" : 7.27,
+		"co2_tpp" : 9.56
+	},
+	{
+		"country" : "UK",
+		"year" : 2005,
+		"inflation_rate" : 2.09,
+		"multiplier" : 1.52,
+		"graph_value" : 7.12,
+		"co2_tpp" : 9.45
+	},
+	{
+		"country" : "UK",
+		"year" : 2006,
+		"inflation_rate" : 2.46,
+		"multiplier" : 1.48,
+		"graph_value" : 6.95,
+		"co2_tpp" : 9.34
+	},
+	{
+		"country" : "UK",
+		"year" : 2007,
+		"inflation_rate" : 2.39,
+		"multiplier" : 1.45,
+		"graph_value" : 6.79,
+		"co2_tpp" : 9.13
+	},
+	{
+		"country" : "UK",
+		"year" : 2008,
+		"inflation_rate" : 3.52,
+		"multiplier" : 1.40,
+		"graph_value" : 6.56,
+		"co2_tpp" : 8.83
+	},
+	{
+		"country" : "UK",
+		"year" : 2009,
+		"inflation_rate" : 1.96,
+		"multiplier" : 1.37,
+		"graph_value" : 6.43,
+		"co2_tpp" : 7.94
+	},
+	{
+		"country" : "UK",
+		"year" : 2010,
+		"inflation_rate" : 2.49,
+		"multiplier" : 1.34,
+		"graph_value" : 6.27,
+		"co2_tpp" : 8.16
+	},
+	{
+		"country" : "UK",
+		"year" : 2011,
+		"inflation_rate" : 3.86,
+		"multiplier" : 1.29,
+		"graph_value" : 6.04,
+		"co2_tpp" : 7.42
+	},
+	{
+		"country" : "UK",
+		"year" : 2012,
+		"inflation_rate" : 2.57,
+		"multiplier" : 1.25,
+		"graph_value" : 5.89,
+		"co2_tpp" : 7.64
+	},
+	{
+		"country" : "UK",
+		"year" : 2013,
+		"inflation_rate" : 2.29,
+		"multiplier" : 1.23,
+		"graph_value" : 5.76,
+		"co2_tpp" : 7.43
+	},
+	{
+		"country" : "UK",
+		"year" : 2014,
+		"inflation_rate" : 1.45,
+		"multiplier" : 1.21,
+		"graph_value" : 5.67,
+		"co2_tpp" : 6.77
+	},
+	{
+		"country" : "UK",
+		"year" : 2015,
+		"inflation_rate" : 0.37,
+		"multiplier" : 1.20,
+		"graph_value" : 5.65,
+		"co2_tpp" : 6.48
+	},
+	{
+		"country" : "UK",
+		"year" : 2016,
+		"inflation_rate" : 1.01,
+		"multiplier" : 1.19,
+		"graph_value" : 5.60,
+		"co2_tpp" : 6.08
+	},
+	{
+		"country" : "UK",
+		"year" : 2017,
+		"inflation_rate" : 2.56,
+		"multiplier" : 1.16,
+		"graph_value" : 5.46,
+		"co2_tpp" : 5.86
+	},
+	{
+		"country" : "UK",
+		"year" : 2018,
+		"inflation_rate" : 2.29,
+		"multiplier" : 1.14,
+		"graph_value" : 5.34,
+		"co2_tpp" : 5.72
+	},
+	{
+		"country" : "UK",
+		"year" : 2019,
+		"inflation_rate" : 1.74,
+		"multiplier" : 1.12,
+		"graph_value" : 5.24,
+		"co2_tpp" : 5.46
+	},
+	{
+		"country" : "UK",
+		"year" : 2020,
+		"inflation_rate" : 0.99,
+		"multiplier" : 1.11,
+		"graph_value" : 5.19,
+		"co2_tpp" : 4.87
+	},
+	{
+		"country" : "UK",
+		"year" : 2021,
+		"inflation_rate" : 2.52,
+		"multiplier" : 1.08,
+		"graph_value" : 5.07,
+		"co2_tpp" : 5.15
+	},
+	{
+		"country" : "UK",
+		"year" : 2022,
+		"inflation_rate" : 7.92,
+		"multiplier" : 1.00,
+		"graph_value" : 4.69,
+		"co2_tpp" : 5.15
+	},
+	{
+		"country" : "Germany",
+		"year" : 1960,
+		"inflation_rate" : 1.54,
+		"multiplier" : 5.05,
+		"graph_value" : 100.00,
+		"co2_tpp" : 11.14
+	},
+	{
+		"country" : "Germany",
+		"year" : 1961,
+		"inflation_rate" : 2.29,
+		"multiplier" : 4.94,
+		"graph_value" : 97.76,
+		"co2_tpp" : 11.34
+	},
+	{
+		"country" : "Germany",
+		"year" : 1962,
+		"inflation_rate" : 2.84,
+		"multiplier" : 4.80,
+		"graph_value" : 95.06,
+		"co2_tpp" : 11.90
+	},
+	{
+		"country" : "Germany",
+		"year" : 1963,
+		"inflation_rate" : 2.97,
+		"multiplier" : 4.66,
+		"graph_value" : 92.32,
+		"co2_tpp" : 12.64
+	},
+	{
+		"country" : "Germany",
+		"year" : 1964,
+		"inflation_rate" : 2.34,
+		"multiplier" : 4.56,
+		"graph_value" : 90.21,
+		"co2_tpp" : 12.85
+	},
+	{
+		"country" : "Germany",
+		"year" : 1965,
+		"inflation_rate" : 3.24,
+		"multiplier" : 4.41,
+		"graph_value" : 87.38,
+		"co2_tpp" : 12.63
+	},
+	{
+		"country" : "Germany",
+		"year" : 1966,
+		"inflation_rate" : 3.53,
+		"multiplier" : 4.26,
+		"graph_value" : 84.39,
+		"co2_tpp" : 12.42
+	},
+	{
+		"country" : "Germany",
+		"year" : 1967,
+		"inflation_rate" : 1.80,
+		"multiplier" : 4.19,
+		"graph_value" : 82.91,
+		"co2_tpp" : 12.13
+	},
+	{
+		"country" : "Germany",
+		"year" : 1968,
+		"inflation_rate" : 1.47,
+		"multiplier" : 4.13,
+		"graph_value" : 81.70,
+		"co2_tpp" : 12.68
+	},
+	{
+		"country" : "Germany",
+		"year" : 1969,
+		"inflation_rate" : 1.91,
+		"multiplier" : 4.05,
+		"graph_value" : 80.17,
+		"co2_tpp" : 13.49
+	},
+	{
+		"country" : "Germany",
+		"year" : 1970,
+		"inflation_rate" : 3.45,
+		"multiplier" : 3.91,
+		"graph_value" : 77.50,
+		"co2_tpp" : 13.10
+	},
+	{
+		"country" : "Germany",
+		"year" : 1971,
+		"inflation_rate" : 5.24,
+		"multiplier" : 3.72,
+		"graph_value" : 73.64,
+		"co2_tpp" : 13.21
+	},
+	{
+		"country" : "Germany",
+		"year" : 1972,
+		"inflation_rate" : 5.48,
+		"multiplier" : 3.53,
+		"graph_value" : 69.81,
+		"co2_tpp" : 13.24
+	},
+	{
+		"country" : "Germany",
+		"year" : 1973,
+		"inflation_rate" : 7.03,
+		"multiplier" : 3.29,
+		"graph_value" : 65.22,
+		"co2_tpp" : 13.80
+	},
+	{
+		"country" : "Germany",
+		"year" : 1974,
+		"inflation_rate" : 6.99,
+		"multiplier" : 3.08,
+		"graph_value" : 60.96,
+		"co2_tpp" : 13.52
+	},
+	{
+		"country" : "Germany",
+		"year" : 1975,
+		"inflation_rate" : 5.91,
+		"multiplier" : 2.91,
+		"graph_value" : 57.56,
+		"co2_tpp" : 12.77
+	},
+	{
+		"country" : "Germany",
+		"year" : 1976,
+		"inflation_rate" : 4.25,
+		"multiplier" : 2.79,
+		"graph_value" : 55.22,
+		"co2_tpp" : 13.92
+	},
+	{
+		"country" : "Germany",
+		"year" : 1977,
+		"inflation_rate" : 3.73,
+		"multiplier" : 2.69,
+		"graph_value" : 53.23,
+		"co2_tpp" : 13.46
+	},
+	{
+		"country" : "Germany",
+		"year" : 1978,
+		"inflation_rate" : 2.72,
+		"multiplier" : 2.62,
+		"graph_value" : 51.82,
+		"co2_tpp" : 13.82
+	},
+	{
+		"country" : "Germany",
+		"year" : 1979,
+		"inflation_rate" : 4.04,
+		"multiplier" : 2.52,
+		"graph_value" : 49.81,
+		"co2_tpp" : 14.35
+	},
+	{
+		"country" : "Germany",
+		"year" : 1980,
+		"inflation_rate" : 5.44,
+		"multiplier" : 2.39,
+		"graph_value" : 47.24,
+		"co2_tpp" : 14.14
+	},
+	{
+		"country" : "Germany",
+		"year" : 1981,
+		"inflation_rate" : 6.34,
+		"multiplier" : 2.24,
+		"graph_value" : 44.42,
+		"co2_tpp" : 13.50
+	},
+	{
+		"country" : "Germany",
+		"year" : 1982,
+		"inflation_rate" : 5.24,
+		"multiplier" : 2.13,
+		"graph_value" : 42.21,
+		"co2_tpp" : 13.09
+	},
+	{
+		"country" : "Germany",
+		"year" : 1983,
+		"inflation_rate" : 3.29,
+		"multiplier" : 2.06,
+		"graph_value" : 40.86,
+		"co2_tpp" : 13.04
+	},
+	{
+		"country" : "Germany",
+		"year" : 1984,
+		"inflation_rate" : 2.41,
+		"multiplier" : 2.02,
+		"graph_value" : 39.90,
+		"co2_tpp" : 13.32
+	},
+	{
+		"country" : "Germany",
+		"year" : 1985,
+		"inflation_rate" : 2.07,
+		"multiplier" : 1.97,
+		"graph_value" : 39.09,
+		"co2_tpp" : 13.45
+	},
+	{
+		"country" : "Germany",
+		"year" : 1986,
+		"inflation_rate" : -0.13,
+		"multiplier" : 1.98,
+		"graph_value" : 39.14,
+		"co2_tpp" : 13.46
+	},
+	{
+		"country" : "Germany",
+		"year" : 1987,
+		"inflation_rate" : 0.25,
+		"multiplier" : 1.97,
+		"graph_value" : 39.05,
+		"co2_tpp" : 13.22
+	},
+	{
+		"country" : "Germany",
+		"year" : 1988,
+		"inflation_rate" : 1.27,
+		"multiplier" : 1.95,
+		"graph_value" : 38.55,
+		"co2_tpp" : 13.11
+	},
+	{
+		"country" : "Germany",
+		"year" : 1989,
+		"inflation_rate" : 2.78,
+		"multiplier" : 1.89,
+		"graph_value" : 37.51,
+		"co2_tpp" : 12.78
+	},
+	{
+		"country" : "Germany",
+		"year" : 1990,
+		"inflation_rate" : 2.70,
+		"multiplier" : 1.84,
+		"graph_value" : 36.53,
+		"co2_tpp" : 13.25
+	},
+	{
+		"country" : "Germany",
+		"year" : 1991,
+		"inflation_rate" : 4.05,
+		"multiplier" : 1.77,
+		"graph_value" : 35.11,
+		"co2_tpp" : 12.70
+	},
+	{
+		"country" : "Germany",
+		"year" : 1992,
+		"inflation_rate" : 5.06,
+		"multiplier" : 1.69,
+		"graph_value" : 33.42,
+		"co2_tpp" : 12.04
+	},
+	{
+		"country" : "Germany",
+		"year" : 1993,
+		"inflation_rate" : 4.47,
+		"multiplier" : 1.62,
+		"graph_value" : 31.98,
+		"co2_tpp" : 11.86
+	},
+	{
+		"country" : "Germany",
+		"year" : 1994,
+		"inflation_rate" : 2.69,
+		"multiplier" : 1.57,
+		"graph_value" : 31.15,
+		"co2_tpp" : 11.62
+	},
+	{
+		"country" : "Germany",
+		"year" : 1995,
+		"inflation_rate" : 1.71,
+		"multiplier" : 1.55,
+		"graph_value" : 30.62,
+		"co2_tpp" : 11.57
+	},
+	{
+		"country" : "Germany",
+		"year" : 1996,
+		"inflation_rate" : 1.45,
+		"multiplier" : 1.52,
+		"graph_value" : 30.19,
+		"co2_tpp" : 11.79
+	},
+	{
+		"country" : "Germany",
+		"year" : 1997,
+		"inflation_rate" : 1.94,
+		"multiplier" : 1.50,
+		"graph_value" : 29.61,
+		"co2_tpp" : 11.43
+	},
+	{
+		"country" : "Germany",
+		"year" : 1998,
+		"inflation_rate" : 0.91,
+		"multiplier" : 1.48,
+		"graph_value" : 29.34,
+		"co2_tpp" : 11.32
+	},
+	{
+		"country" : "Germany",
+		"year" : 1999,
+		"inflation_rate" : 0.59,
+		"multiplier" : 1.47,
+		"graph_value" : 29.17,
+		"co2_tpp" : 10.98
+	},
+	{
+		"country" : "Germany",
+		"year" : 2000,
+		"inflation_rate" : 1.44,
+		"multiplier" : 1.45,
+		"graph_value" : 28.76,
+		"co2_tpp" : 11.03
+	},
+	{
+		"country" : "Germany",
+		"year" : 2001,
+		"inflation_rate" : 1.98,
+		"multiplier" : 1.42,
+		"graph_value" : 28.20,
+		"co2_tpp" : 11.24
+	},
+	{
+		"country" : "Germany",
+		"year" : 2002,
+		"inflation_rate" : 1.42,
+		"multiplier" : 1.40,
+		"graph_value" : 27.80,
+		"co2_tpp" : 11.04
+	},
+	{
+		"country" : "Germany",
+		"year" : 2003,
+		"inflation_rate" : 1.03,
+		"multiplier" : 1.39,
+		"graph_value" : 27.52,
+		"co2_tpp" : 11.07
+	},
+	{
+		"country" : "Germany",
+		"year" : 2004,
+		"inflation_rate" : 1.67,
+		"multiplier" : 1.37,
+		"graph_value" : 27.07,
+		"co2_tpp" : 10.91
+	},
+	{
+		"country" : "Germany",
+		"year" : 2005,
+		"inflation_rate" : 1.55,
+		"multiplier" : 1.35,
+		"graph_value" : 26.66,
+		"co2_tpp" : 10.67
+	},
+	{
+		"country" : "Germany",
+		"year" : 2006,
+		"inflation_rate" : 1.58,
+		"multiplier" : 1.33,
+		"graph_value" : 26.24,
+		"co2_tpp" : 10.82
+	},
+	{
+		"country" : "Germany",
+		"year" : 2007,
+		"inflation_rate" : 2.30,
+		"multiplier" : 1.30,
+		"graph_value" : 25.65,
+		"co2_tpp" : 10.49
+	},
+	{
+		"country" : "Germany",
+		"year" : 2008,
+		"inflation_rate" : 2.63,
+		"multiplier" : 1.26,
+		"graph_value" : 25.00,
+		"co2_tpp" : 10.52
+	},
+	{
+		"country" : "Germany",
+		"year" : 2009,
+		"inflation_rate" : 0.31,
+		"multiplier" : 1.26,
+		"graph_value" : 24.92,
+		"co2_tpp" : 9.72
+	},
+	{
+		"country" : "Germany",
+		"year" : 2010,
+		"inflation_rate" : 1.10,
+		"multiplier" : 1.24,
+		"graph_value" : 24.65,
+		"co2_tpp" : 10.24
+	},
+	{
+		"country" : "Germany",
+		"year" : 2011,
+		"inflation_rate" : 2.08,
+		"multiplier" : 1.22,
+		"graph_value" : 24.15,
+		"co2_tpp" : 9.93
+	},
+	{
+		"country" : "Germany",
+		"year" : 2012,
+		"inflation_rate" : 2.01,
+		"multiplier" : 1.20,
+		"graph_value" : 23.67,
+		"co2_tpp" : 9.98
+	},
+	{
+		"country" : "Germany",
+		"year" : 2013,
+		"inflation_rate" : 1.50,
+		"multiplier" : 1.18,
+		"graph_value" : 23.32,
+		"co2_tpp" : 10.18
+	},
+	{
+		"country" : "Germany",
+		"year" : 2014,
+		"inflation_rate" : 0.91,
+		"multiplier" : 1.17,
+		"graph_value" : 23.11,
+		"co2_tpp" : 9.68
+	},
+	{
+		"country" : "Germany",
+		"year" : 2015,
+		"inflation_rate" : 0.51,
+		"multiplier" : 1.16,
+		"graph_value" : 22.99,
+		"co2_tpp" : 9.69
+	},
+	{
+		"country" : "Germany",
+		"year" : 2016,
+		"inflation_rate" : 0.49,
+		"multiplier" : 1.16,
+		"graph_value" : 22.88,
+		"co2_tpp" : 9.72
+	},
+	{
+		"country" : "Germany",
+		"year" : 2017,
+		"inflation_rate" : 1.51,
+		"multiplier" : 1.14,
+		"graph_value" : 22.54,
+		"co2_tpp" : 9.51
+	},
+	{
+		"country" : "Germany",
+		"year" : 2018,
+		"inflation_rate" : 1.73,
+		"multiplier" : 1.12,
+		"graph_value" : 22.15,
+		"co2_tpp" : 9.10
+	},
+	{
+		"country" : "Germany",
+		"year" : 2019,
+		"inflation_rate" : 1.45,
+		"multiplier" : 1.10,
+		"graph_value" : 21.84,
+		"co2_tpp" : 8.50
+	},
+	{
+		"country" : "Germany",
+		"year" : 2020,
+		"inflation_rate" : 0.14,
+		"multiplier" : 1.10,
+		"graph_value" : 21.81,
+		"co2_tpp" : 7.67
+	},
+	{
+		"country" : "Germany",
+		"year" : 2021,
+		"inflation_rate" : 3.07,
+		"multiplier" : 1.07,
+		"graph_value" : 21.16,
+		"co2_tpp" : 8.09
+	},
+	{
+		"country" : "Germany",
+		"year" : 2022,
+		"inflation_rate" : 6.87,
+		"multiplier" : 1.00,
+		"graph_value" : 19.80,
+		"co2_tpp" : 8.09
+	}
+]
