@@ -1,3 +1,0 @@
-# Historical Graph Page
-
-TEST
