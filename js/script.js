@@ -22,3 +22,4 @@ connection.query(sqlQuery, (error, results, fields) => {
 
 // Close the connection
 connection.end();
+
