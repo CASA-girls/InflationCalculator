@@ -36,8 +36,6 @@ function createChart() {
                         [1, '#32CD3200']
                     ]
                 },
-                // The color is hexadecimal, Green
-                
                 threshold: null,
                 marker: {
                     lineWidth: 1,
@@ -67,4 +65,3 @@ pollingCheckbox.onchange = urlInput.onchange =
 
 // Create the chart
 createChart();
-
