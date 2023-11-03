@@ -32,21 +32,15 @@
                      },
             // Inflation Rates, Graphvalue, Co2
             dataset: {
-             source: [
+             source: [ 
             ['Country', 'France', 'UK', 'Italy','Germany'],
-            ['1960', 4.1399],
-            ['1970', ],
-            ['1980', ],
-            ['1990', ],
-            ['2000', ],
-            ['2010', ],
-            ['2020', ],
-            ['2022', ],
+            ['1960', 4.1399,5,2,1,8] 
+            
            ]
           },
              xAxis: { type: 'category' },
              yAxis: {},
-             series: [{ type: 'bar' }, { type: 'bar' }, { type: 'bar' }]
+             series: [{ type: 'bar' }, { type: 'bar' }, { type: 'bar' },{ type: 'bar' }]
             };
             
             //Configure the Chart
@@ -75,6 +69,7 @@
               console.error('Error fetching the JSON file:', error);
              });
 
+             //User 然后array,create object 然后连上SQL的数据，然后loop到我找的echarts上面
        </script>
    
     </div>
