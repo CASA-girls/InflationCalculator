@@ -14,66 +14,18 @@
         <!--create a container div to put in our charts-->
         <div id="Graph1" style="width:600px;height:400px"></div>
 
+        <script src="myEchartsScript.js"></script> <!-- 引入包含 ECharts 配置的 JavaScript 文件 -->
+        
+    
         <!--use java script to draw a chart-->
 
-        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script> <!--this is co2 high chart testing-->
         
-        <script>
+        
             //initialize the chart 
-            var myChart = echarts.init(document.querySelector('#Graph1'))
-
-            //assign and configure the chart
-            var option = {
-             legend: {
-                     // Try 'horizontal'
-                         orient: 'vertical',
-                         right: 10,
-                         top: 'center'
-                     },
-            // Inflation Rates, Graphvalue, Co2
-            dataset: {
-             source: [ 
-            ['Country', 'France', 'UK', 'Italy','Germany'],
-            ['1960', 4.1399,5,2,1,8] 
-            
-           ]
-          },
-             xAxis: { type: 'category' },
-             yAxis: {},
-             series: [{ type: 'bar' }, { type: 'bar' }, { type: 'bar' },{ type: 'bar' }]
-            };
-            
-            //Configure the Chart
-            myChart.setOption(option)
-       
-            //Chart Style
-            option = {
-            legend: {
-            data: ['Legend A', 'Legend B', 'Legend C'],
-            backgroundColor: '#ccc',
-            textStyle: {
-          color: '#05c'
-                 // ...
-              }
-                  // ...
-                 }
-                // ...
-};
-            // Fetch the SQL data base in json file
-            fetch('C:\Users\DELL\Documents\GitHub\InflationCalculator\SQL_data_.json')
-            .then(response => response.json())
-            .then(data => {
-              console.log(data); // Use the data from the JSON file here
-             })
-             .catch(error => {
-              console.error('Error fetching the JSON file:', error);
-             });
-
-             //User 然后array,create object 然后连上SQL的数据，然后loop到我找的echarts上面
-       </script>
+           
    
     </div>
 </body>
-
 
 </html>
