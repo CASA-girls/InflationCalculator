@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 
+   <!--HEAD The following are the graph part inserted by Annie(not final version)-->
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Historical Graph </title>
+    <script src="Graph js/echarts.js"></script>
+
+    <!--Same as above-->
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" style="background-color: rgb(230, 231, 237);">
@@ -130,10 +137,21 @@
                         <div class="service border-hover p-4 shadow rounded-5">
                             <div class="icon rounded-4"><i class="ri-pen-nib-fill"></i></div>
                             <h5 class="mt-4 fw-italic display-6 text-dark">Graph 1</h5>
+                                    <!--Annie comment(not final version)-->
+                                    <!--create a container div to put in our charts-->
+                                         <div id="Graph1" style="width :300px;height: 450px"></div>
+
+                                    <!--use java script to draw a chart-->
+                                         <script src="Graph js/myEchartsScript.js"></script> <!-- for this part is to import ECharts configured JavaScript file -->
+                                     
+                                    <!--Annie comment this part ends-->
                             <p class="mb-0 fw-italic text-dark">As I stand out here in the wonders of the unknown at Hadley,
-                                I sort of realize there’s a fundamental truth.</p>
+                                I sort of realize there’ s a fundamental truth.</p>
 
                         </div>
+
+
+
                     </div>
 
                     <div class="col-md-6 col-lg-4">

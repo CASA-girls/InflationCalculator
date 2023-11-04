@@ -12,12 +12,12 @@ var option = {
     dataset: {
         source: [
             ['Country', 'France', 'UK', 'Italy', 'Germany'],
-            ['1960', 4.1399, 5, 2, 1, 8]
+            ['1960', 4.1399, 5, 2, 1, 8] 
 
         ]
     },
     xAxis: { type: 'category' },
-    yAxis: {type: 'value'},
+    yAxis: {},
     series: [
         { type: 'bar' },
         { type: 'bar' },
