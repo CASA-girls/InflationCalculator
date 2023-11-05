@@ -1,11 +1,11 @@
 
-//npm install express --save 导入这个框架
+//npm install express --save 
 //npm install -g mysql
 //npm install cors --save
 
-//express 框架环境
-//mysql 数据库环境
-//cors 跨域请求
+//express (Framework Environments)
+//mysql (Database Environments)
+//cors (Cross-origin request)
 
 const express = require('express')
 const router = express.Router()
@@ -22,7 +22,7 @@ router.get('/getechart', (req, res) => {
     //This is connect pool
     var conn = new mysql.createConnection(dbDevMsqlConfig);
      
-    //判断数据库链接是否通
+    //here is to check the database connection is successful
     conn.connect(function (err) {
       if (err) {
         newjson.code = -1
@@ -30,9 +30,9 @@ router.get('/getechart', (req, res) => {
         res.send(JSON.stringify(newjson));
       }
   
-      var sql = "select * from inflationcalculator "; //核心sql 语句 需要修改
+      var sql = "select * from inflationcalculator "; //THIS IS THE MAIN(MOST IMPORTANT) SQL LINE, Change to our table name
   
-      //查询mysql 表
+      //Search in the SQL Table
       conn.query(sql, function (err, recordset) {
         
         if (err) {
@@ -42,7 +42,7 @@ router.get('/getechart', (req, res) => {
         }
         else {
           newjson.code = 0
-          newjson.messages = '获取成功'
+          newjson.messages = 'Successfully Retrieved'
           newjson.data = recordset;
           res.send(JSON.stringify(newjson));
         }
