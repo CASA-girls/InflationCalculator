@@ -1,67 +1,42 @@
-const defaultData = 'https://demo-live-data.highcharts.com/time-data.csv';
-const urlInput = document.getElementById('fetchURL');
-const pollingCheckbox = document.getElementById('enablePolling');
-const pollingInput = document.getElementById('pollingTime');
+import * as echarts from 'echarts';
 
-function createChart() {
-    Highcharts.chart('container', {
-        chart: {
-            type: 'areaspline'
-        },
-        title: {
-            text: 'Live Data'
-        },
-        accessibility: {
-            announceNewData: {
-                enabled: true,
-                minAnnounceInterval: 15000,
-                announcementFormatter: function (
-                    allSeries,
-                    newSeries,
-                    newPoint) {
-                    if (newPoint) {
-                        return 'New point added. Value: ' + newPoint.y;
-                    }
-                    return false;
-                }
-            }
-        },
-        plotOptions: {
-            areaspline: {
-                color: '#32CD32',
-                fillColor: {
-                    linearGradient: { x1: 0, x2: 0, y1: 0, y2: 1 },
-                    stops: [
-                        [0, '#32CD32'],
-                        [1, '#32CD3200']
-                    ]
-                },
-                threshold: null,
-                marker: {
-                    lineWidth: 1,
-                    lineColor: null,
-                    fillColor: 'white'
-                }
-            }
-        },
-        data: {
-            csvURL: urlInput.value,
-            enablePolling: pollingCheckbox.checked === true,
-            dataRefreshRate: parseInt(pollingInput.value, 10)
-        }
-    });
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom);
+var option;
 
-    if (pollingInput.value < 1 || !pollingInput.value) {
-        pollingInput.value = 1;
+option = {
+  xAxis: {},
+  yAxis: {},
+  series: [
+    {
+      symbolSize: 20,
+      data: [
+        [10.0, 8.04],
+        [8.07, 6.95],
+        [13.0, 7.58],
+        [9.05, 8.81],
+        [11.0, 8.33],
+        [14.0, 7.66],
+        [13.4, 6.81],
+        [10.0, 6.33],
+        [14.0, 8.96],
+        [12.5, 6.82],
+        [9.15, 7.2],
+        [11.5, 7.2],
+        [3.03, 4.23],
+        [12.2, 7.83],
+        [2.02, 4.47],
+        [1.05, 3.33],
+        [4.05, 4.96],
+        [6.03, 7.24],
+        [12.0, 6.26],
+        [12.0, 8.84],
+        [7.08, 5.82],
+        [5.02, 5.68]
+      ],
+      type: 'scatter'
     }
-}
+  ]
+};
 
-urlInput.value = defaultData;
-
-// We recreate instead of using chart update to make sure the loaded CSV
-// and such is completely gone.
-pollingCheckbox.onchange = urlInput.onchange =
-   pollingInput.onchange = createChart;
-
-// Create the chart
-createChart();
+option && myChart.setOption(option);
