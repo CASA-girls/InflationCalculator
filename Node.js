@@ -10,7 +10,7 @@ function calculateInflation() {
     const connection = mysql.createConnection({
         host: 'casa0017.cetools.org',
         user: 'ucqbutk',
-        password: 'zahugufelu',
+        password: '****',
         database: 'ucqbutk'
     });
 
