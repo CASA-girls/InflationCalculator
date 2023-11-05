@@ -1,32 +1,106 @@
 <!DOCTYPE html>
-<!--SAME CONTENT WITH GRAPHPAGE-->
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Historical Graph </title>
+    <meta charset="utf-8">
+    <title>Inflation Data</title>
     <script src="Graph js/echarts.js"></script>
-    
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
-    <div>
-        <!--create a container div to put in our charts-->
-        <div id="Graph1" style="width :500px;height :350px"> </div>
-
-        <!--use java script to draw a chart-->
-        <script src="Graph js/myEchartsScript.js"></script> <!-- for this part is to import ECharts configured JavaScript file -->
-        
-        <!--Graph 2 for Co2 Data-->
-        
-
-        <!--script src="https://code.highcharts.com/highcharts.js"></!--script> this is co2 high chart testing--> 
-        
-        
-           
    
-    </div>
+    <div id="chart" style="width: 1920px;height:900px;"></div>
+
+    <script>
+
+        //定义四个数组 y 轴数据
+        var data1 = [];
+        var data2 = [];
+        var data3 = [];
+        var data4 = [];
+        var xAxisData = []
+
+        $(function () {
+            $.ajax({
+                url: "http://127.0.0.1:8080/env/getechart",
+                type: "GET",
+                data: {},
+                contextType: "application/json;charset=utf-8",
+                success: function (res) {
+
+                    var jsonnew = JSON.parse(res);
+                    //开始渲染数据
+                    var datalist = jsonnew.data;
+                    for (var index in datalist) {
+
+                        var jsonchild = datalist[index];
+
+                        if (xAxisData.indexOf(jsonchild.year) == -1) {
+                            xAxisData.push(jsonchild.year);
+                        }
+                        if (jsonchild.country == "France") {
+                            data1.push(jsonchild.inflation_rate);
+                        }
+                        if (jsonchild.country == "Italy") {
+                            data2.push(jsonchild.inflation_rate);
+                        }
+                        if (jsonchild.country == "UK") {
+                            data3.push(jsonchild.inflation_rate);
+                        }
+                        if (jsonchild.country == "Germany") {
+                            data4.push(jsonchild.inflation_rate);
+                        }
+                    }
+
+                    var chart = echarts.init(document.getElementById('chart'));
+                    var option = {
+                        title: {
+                            text: 'Inflation Rate'
+                        },
+                        tooltip: {},
+                        legend: {
+                            data: ['France', 'Italy', 'UK', 'Germany']
+                        },
+                        xAxis: {
+                            data: xAxisData,
+
+                            axisLabel: {
+                                interval: 0,
+                                rotate: 30
+                            }
+                        },
+                        yAxis: {},
+                        series: [{
+                            name: 'France',
+                            type: 'bar',
+                            data: data1
+                        }, {
+                            name: 'Italy',
+                            type: 'bar',
+                            data: data2
+                        }, {
+                            name: 'UK',
+                            type: 'bar',
+                            data: data3
+                        }
+                            , {
+                            name: 'Germany',
+                            type: 'bar',
+                            data: data4
+                        }]
+                    };
+                   
+                    chart.setOption(option);
+
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            });
+        })
+
+    </script>
 </body>
 
 </html>

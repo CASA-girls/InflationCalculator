@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Carbon Dioxide data</title>
+    <script src="Graph js/echarts.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+   
+    <div id="chart" style="width: 1920px;height:900px;"></div>
+
+    <script>
+
+        //define 4 y axis data 
+        var data1 = [];
+        var data2 = [];
+        var data3 = [];
+        var data4 = [];
+
+        var xAxisData = []; //year
+
+        $(function () {
+            $.ajax({
+                url: "http://127.0.0.1:8080/env/getechart",
+                type: "GET",
+                data: {},
+                contextType: "application/json;charset=utf-8",
+                success: function (res) {
+
+                    var jsonnew = JSON.parse(res);
+                    //start to run the chart and data
+                    var datalist = jsonnew.data;
+                    for (var index in datalist) {
+
+                        var jsonchild = datalist[index];
+
+                        if (xAxisData.indexOf(jsonchild.year) == -1) {
+                            xAxisData.push(jsonchild.year);
+                        }
+
+                        // add data to Y axis
+                        if (jsonchild.country == "France") {
+                            data1.push(jsonchild.co2_tpp);
+                        }
+
+                        if (jsonchild.country == "Italy") {
+                            data2.push(jsonchild.co2_tpp);
+                        }
+                        if (jsonchild.country == "UK") {
+                            data3.push(jsonchild.co2_tpp);
+                        }
+                        if (jsonchild.country == "Germany") {
+                            data4.push(jsonchild.co2_tpp);
+                        }
+                    }
+
+                    var chart = echarts.init(document.getElementById('chart'));
+                    var option = {
+                        title: {
+                            text: 'Carbon Dioxide Emission'
+                        },
+                        tooltip: {},
+                        legend: {
+                            data: ['France', 'Italy', 'UK', 'Germany']
+                        },
+                        xAxis: {
+                            data: xAxisData,
+
+                            axisLabel: {
+                                interval: 0,
+                                rotate: 30
+                            }
+                        },
+                        yAxis: {},
+                        series: [{
+                            name: 'France',
+                            type: 'line',
+                            data: data1
+                        }, {
+                            name: 'Italy',
+                            type: 'line',
+                            data: data2
+                        }, {
+                            name: 'UK',
+                            type: 'line',
+                            data: data3
+                        }
+                            , {
+                            name: 'Germany',
+                            type: 'line',
+                            data: data4
+                        }]
+                    };
+                   
+                    chart.setOption(option);
+
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            });
+        })
+
+    </script>
+</body>
+
+</html>
