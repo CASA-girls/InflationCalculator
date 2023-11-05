@@ -21,7 +21,7 @@ function calculateInflation() {
     const sqlQuery = `SELECT multiplier FROM inflationcalculator WHERE year = '${yearSelect}' AND targetyear = '${targetyearSelect}'`;
     connection.query(sqlQuery, (error, results) => {
         if (error) {
-            console.error('查询出错:', error);
+            console.error('Error in query:', error);
         } else {
             // 处理查询结果
             if (results.length === 2) {

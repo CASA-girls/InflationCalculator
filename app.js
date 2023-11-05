@@ -2,7 +2,7 @@ const express = require('express');
 const mysql = require('mysql');
 
 const app = express();
-const port = 3306; // 你可以根据需要选择端口号
+const port = 3306;
 
 const db = mysql.createConnection({
     host: 'casa0017.cetools.org',
@@ -13,14 +13,14 @@ const db = mysql.createConnection({
 connection.connect();
 
 app.get('/api/inflation', (req, res) => {
-    const year = req.query.year; // 从前端获取查询参数
-    const country = req.query.country; // 从前端获取查询参数
+    const year = req.query.year; // Get query parameters from the front end
+    const country = req.query.country; // Get query parameters from the front end
 
     const sqlQuery = `SELECT multiplier FROM inflationcalculator WHERE year = ? AND country = ?`;
     connection.query(sqlQuery, [year, country], (error, results) => {
         if (error) {
-            console.error('查询出错:', error);
-            res.status(500).json({ error: '查询出错' });
+            console.error('Error in query:', error);
+            res.status(500).json({ error: 'Query error' });
         } else {
             if (results.length > 0) {
                 const multiplier = results[0].multiplier;
