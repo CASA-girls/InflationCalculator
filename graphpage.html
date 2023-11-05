@@ -14,7 +14,7 @@
 
     <script>
 
-        //定义四个数组 y 轴数据
+        //Define the 4 arrays of y-axis data
         var data1 = [];
         var data2 = [];
         var data3 = [];
@@ -30,7 +30,7 @@
                 success: function (res) {
 
                     var jsonnew = JSON.parse(res);
-                    //开始渲染数据
+                    //Here the chart begin to generate the data
                     var datalist = jsonnew.data;
                     for (var index in datalist) {
 
