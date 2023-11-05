@@ -21,41 +21,25 @@
     In Italy ￡<input id="Italy"><br />
     In UK ￡<input id="UK"><br />
     In Germany ￡<input id="Germany">
-    <script>
-        //设置下拉年份输入
-        var yearSelect = document.getElementById("yearSelect");
-        var targetyearSelect = document.getElementById("targetyearSelect");
-        var amountInput = document.querySelector('input[type="text"]'); //获取输入的金额
-        for (var year = 1960; year <= 2022; year++) {
-            var option = document.createElement("option");
-            option.value = year;
-            option.text = year;
-            yearSelect.appendChild(option);
-        }
-        for (var year = 1960; year <= 2022; year++) {
-            var option = document.createElement("option");
-            option.value = year;
-            option.text = year;
-            targetyearSelect.appendChild(option);
-        }
+    <script src="inflationCalculator.js"></script>
+    <!-- <script>
+        // function calculateInflation() {
+        //     // 获取用户输入
+        //     var amount = parseFloat(amountInput.value);
+        //     var originalYear = parseInt(yearSelect.value);
+        //     var targetYear = parseInt(targetyearSelect.value);
 
-        function calculateInflation() {
-            // 获取用户输入
-            var amount = parseFloat(amountInput.value);
-            var originalYear = parseInt(yearSelect.value);
-            var targetYear = parseInt(targetyearSelect.value);
+        //     // 这里应该使用实际的通货膨胀率数据来计算
+        //     var inflationRate = 0.03; // 示例通货膨胀率
+        //     var result = amount / Math.pow(1 + inflationRate, targetYear - originalYear);
 
-            // 这里应该使用实际的通货膨胀率数据来计算
-            var inflationRate = 0.03; // 示例通货膨胀率
-            var result = amount / Math.pow(1 + inflationRate, targetYear - originalYear);
+        //     // 显示结果
+        //     alert("£" + result.toFixed(2)); // 这里使用弹出框来显示结果
+        // }
 
-            // 显示结果
-            alert("£" + result.toFixed(2)); // 这里使用弹出框来显示结果
-        }
-
-        // 在按钮点击时触发计算
-        document.querySelector('button').addEventListener('click', calculateInflation);
-    </script>
+        // // 在按钮点击时触发计算
+        // document.querySelector('button').addEventListener('click', calculateInflation);
+    </script> -->
 </body>
 
 </html>

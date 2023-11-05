@@ -10,25 +10,40 @@ const db = mysql.createConnection({
     password: '****',
     database: 'ucqbutk'
 });
-connection.connect();
+db.connect((err) => {
+    if (err) {
+        console.error('Database connection failed:', err);
+        return;
+    }
+    console.log('Database connected successfully');
+});
+app.use(express.json());
 
-app.get('/api/inflation', (req, res) => {
-    const year = req.query.year; // Get query parameters from the front end
-    const country = req.query.country; // Get query parameters from the front end
+app.post('/api/calculate', (req, res) => {
+    const { yearSelect, targetyearSelect, amountInput } = req.body; // Get two years and amount from the front end
 
-    const sqlQuery = `SELECT multiplier FROM inflationcalculator WHERE year = ? AND country = ?`;
-    connection.query(sqlQuery, [year, country], (error, results) => {
-        if (error) {
-            console.error('Error in query:', error);
-            res.status(500).json({ error: 'Query error' });
-        } else {
-            if (results.length > 0) {
-                const multiplier = results[0].multiplier;
-                res.json({ multiplier });
-            } else {
-                res.json({ multiplier: 1 }); // 返回一个默认值
+    const userCountries = ['France', 'Italy', 'UK', 'Germany'];
+    const results = [];
+    // Use a loop to process each country
+    userCountries.forEach(userCountry => {
+        const sqlQuery = `SELECT multiplier FROM inflationcalculator WHERE (year = ? OR year = ?) AND country = ?`;
+        db.query(sqlQuery, [yearSelect, targetyearSelect, userCountry], (error, queryResults) => {
+            if (error) {
+                console.error(`查询出错 for ${userCountry}:`, error);
+                return;
             }
-        }
+
+            if (queryResults.length === 2) {
+                const multiplier1 = queryResults[0].multiplier;
+                const multiplier2 = queryResults[1].multiplier;
+                const result = (amount / multiplier1) * multiplier2;
+                results.push({ country: userCountry, result });
+
+                if (results.length === userCountries.length) {
+                    res.json(results); // 返回所有计算结果
+                }
+            }
+        });
     });
 });
 
