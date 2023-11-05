@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Inflation Data</title>
+    <title>Carbon Dioxide data</title>
     <script src="Graph js/echarts.js"></script>
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
@@ -14,12 +14,13 @@
 
     <script>
 
-        //定义四个数组 y 轴数据
+        //define 4 y axis data 
         var data1 = [];
         var data2 = [];
         var data3 = [];
         var data4 = [];
-        var xAxisData = []
+
+        var xAxisData = []; //year
 
         $(function () {
             $.ajax({
@@ -30,7 +31,7 @@
                 success: function (res) {
 
                     var jsonnew = JSON.parse(res);
-                    //开始渲染数据
+                    //start to run the chart and data
                     var datalist = jsonnew.data;
                     for (var index in datalist) {
 
@@ -39,24 +40,27 @@
                         if (xAxisData.indexOf(jsonchild.year) == -1) {
                             xAxisData.push(jsonchild.year);
                         }
+
+                        // add data to Y axis
                         if (jsonchild.country == "France") {
-                            data1.push(jsonchild.inflation_rate);
+                            data1.push(jsonchild.co2_tpp);
                         }
+
                         if (jsonchild.country == "Italy") {
-                            data2.push(jsonchild.inflation_rate);
+                            data2.push(jsonchild.co2_tpp);
                         }
                         if (jsonchild.country == "UK") {
-                            data3.push(jsonchild.inflation_rate);
+                            data3.push(jsonchild.co2_tpp);
                         }
                         if (jsonchild.country == "Germany") {
-                            data4.push(jsonchild.inflation_rate);
+                            data4.push(jsonchild.co2_tpp);
                         }
                     }
 
                     var chart = echarts.init(document.getElementById('chart'));
                     var option = {
                         title: {
-                            text: 'Inflation Rate'
+                            text: 'Carbon Dioxide Emission'
                         },
                         tooltip: {},
                         legend: {
@@ -73,20 +77,20 @@
                         yAxis: {},
                         series: [{
                             name: 'France',
-                            type: 'bar',
+                            type: 'line',
                             data: data1
                         }, {
                             name: 'Italy',
-                            type: 'bar',
+                            type: 'line',
                             data: data2
                         }, {
                             name: 'UK',
-                            type: 'bar',
+                            type: 'line',
                             data: data3
                         }
                             , {
                             name: 'Germany',
-                            type: 'bar',
+                            type: 'line',
                             data: data4
                         }]
                     };
