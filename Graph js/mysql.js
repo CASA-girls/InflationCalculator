@@ -10,7 +10,7 @@ let dbDevMsqlConfig;
 dbDevMsqlConfig ={
     host     : 'casa0017.cetools.org', // ip 
     user     : 'ucqbutk', //username
-    password : 'zahugufelu', //Passcode
+    password : process.env.MYSQL_PASSWORD, // Set environment variable
     port     :  '3306', //port
     database :  'ucqbutk' //Database
   };
@@ -19,3 +19,12 @@ module.exports={
     dbDevMsqlConfig
 }
 
+connection.connect((err) => {
+  if (err) {
+    console.error('Error connecting to MySQL:', err);
+    return;
+  }
+  console.log('Connected to MySQL!');
+});
+
+module.exports = connection;
