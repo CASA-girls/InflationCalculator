@@ -1,9 +1,9 @@
 
 let dbDevMsqlConfig;
 
-//开发环境数据库
+//this commend is use for develop a envi
 
-// mysql 和 node js mysql Referenced from:
+// find and solve error from mysql and node js mysql Referenced from:
 //https://blog.csdn.net/m0_59962820/article/details/129389947
 
 //Configure SQL database

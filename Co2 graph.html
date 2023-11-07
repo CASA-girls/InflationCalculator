@@ -6,11 +6,23 @@
     <title>Carbon Dioxide data</title>
     <script src="Graph js/echarts.js"></script>
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <style>
+        body,
+        html,
+        #chart {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
 </head>
 
 <body>
    
-    <div id="chart" style="width: 1920px;height:900px;"></div>
+    <div id="chart"></div>
 
     <script>
 
@@ -71,10 +83,11 @@
 
                             axisLabel: {
                                 interval: 0,
-                                rotate: 30
+                                rotate: 90
                             }
-                        },
+                        },  
                         yAxis: {},
+                        backgroundColor: 'rgba(255, 255, 255, 0)', // Set background color to white with 0% opacity
                         series: [{
                             name: 'France',
                             type: 'line',
