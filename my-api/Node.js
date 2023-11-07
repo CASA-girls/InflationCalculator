@@ -22,7 +22,7 @@ router.post('/getmultiplier', (req, res) => {
             res.send(JSON.stringify(newjson));
         }
 
-        var sql = "select * from  inflationcalculator order by `year` "; // 表名需要改成你本机的表
+        var sql = "select * from  inflationcalculator order by `year` ";
 
         conn.query(sql, function (err, recordset) {
 
