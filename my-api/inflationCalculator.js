@@ -1,3 +1,4 @@
+//Set the drop-down year
 var yearSelect = document.getElementById("yearSelect");
 var targetyearSelect = document.getElementById("targetyearSelect");
 
