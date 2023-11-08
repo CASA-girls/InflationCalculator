@@ -10,7 +10,7 @@ let dbDevMsqlConfig;
 dbDevMsqlConfig ={
     host     : 'casa0017.cetools.org', // ip 
     user     : 'ucqbutk', //username
-    password : '*******', //Passcode
+    password : process.env.MYSQL_PASSWORD, // Set environment variable
     port     :  '3306', //port
     database :  'ucqbutk' //Database
   };
