@@ -1,1 +1,259 @@
-test
+<!DOCTYPE html>
+<html lang="en" data-offset="60">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross Country Carbon and Inflation Calculator</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+   <!--HEAD The following are the graph part inserted by Annie(not final version)-->
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Historical Graph </title>
+   
+    <!--Same as above-->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" style="background-color: rgb(230, 231, 237);" cz-shortcut-listen="true">
+   <!--Background spheres addition external css addition-->
+   <style>
+        body {
+            background-image: url('images/1.png');
+        }
+        /* Style for the navigation bar */
+        .navbar {
+            height: 70px; /* Adjust the height as needed */
+        }
+
+        .table-container {
+        max-height: 250px; /* Adjust the maximum height as needed */
+        overflow-y: auto;
+         }
+
+    </style>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg py-2 fixed-top navbar-light custom-shadow" style="background-color:rgb(230, 231, 237);">
+       
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <h3 class="fw-bold">CCCI</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="toggleNavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation bar buttons -->
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="/">Home<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./historicalgraph.html">Historical Graph<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./calculatormap.html">Calculator &amp; Map<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./analysispage.html">Analysis<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <!--News feed icon and link-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                        <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"></path>
+                        <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"></path>
+                  
+                    </svg>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                           
+   
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex"></form>
+            </div>
+        </div>
+    </nav>  
+   
+    <!-- Navigation bar end -->
+
+
+<!--Analysis page  -->
+
+    <div id="analysis" class="section-padding" style="padding-top: 100px;">
+        <div class="container">
+            <div class="row gy-4 d-flex justify-content-start align-items-center" >              
+                <div class="row">
+                    <div class="col-12">
+                        <div class="intro-section text-center mb-5">
+                            <h1 class="fw-italic display-4 text-dark">Analysis</h1>
+                            <p class="mx-auto fw-italic text-dark">???</p>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div style="height: 60px;"></div>
+<!-- START OF CPI TABLE  -->
+
+            <!-- Consumer price index table 2022 -->
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-9 order-lg"></div>
+                <div class="table-container">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <!-- Column headings -->
+                            <th scope="col">Allocation of Items to Consumer Price Index</th>
+                            <th scope="col"></th>
+                            <th scope="col">CPIH weight, February 2022 (per cent)</th>
+                            <th scope="col">Observed variation in price changes1</th>
+                            <th scope="col">Representative items2 (per cent of total)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- First Row -->
+                        <tr class="table-info">
+                            <th scope="row">1</th>
+                            <td>Food &amp; non-alcoholic beverages</td>
+                            <td>9.3</td>
+                            <td>Medium</td>
+                            <td>24</td>
+                        </tr>
+
+                        <!-- Second row -->
+                        <tr class="table-info">
+                            <th scope="row">2</th>
+                            <td>Alcohol &amp; tobacco</td>
+                            <td>3.9</td>
+                            <td>Low</td>
+                            <td>4</td>
+                        </tr>
+
+                        <!-- Third row -->
+                        <tr class="table-info">
+                            <th scope="row">3</th>
+                            <td>Clothing &amp; footwear</td>
+                            <td>4.9</td>
+                            <td>Medium</td>
+                            <td>12</td>
+                        </tr>
+
+                        <!-- Fourth row -->
+                        <tr class="table-info">
+                            <th scope="row">4</th>
+                            <td>Housing &amp; household services</td>
+                            <td>31.4</td>
+                            <td>Low</td>
+                            <td>5</td>
+                        </tr>
+
+                        <!-- Fifth row -->
+                        <tr class="table-info">
+                            <th scope="row">5</th>
+                            <td>Furniture &amp; household goods</td>
+                            <td>6.3</td>
+                            <td>Medium</td>
+                            <td>10</td>
+                        </tr>
+
+                        <!-- Sixth row -->
+                        <tr class="table-info">
+                            <th scope="row">6</th>
+                            <td>Health</td>
+                            <td>1.8</td>
+                            <td>Low</td>
+                            <td>3</td>
+                        </tr>
+
+                        <!-- Seventh row -->
+                        <tr class="table-info">
+                            <th scope="row">7</th>
+                            <td>Transport</td>
+                            <td>11.1</td>
+                            <td>High</td>
+                            <td>6</td>
+                        </tr>
+
+                        <!-- Eighth row -->
+                        <tr class="table-info">
+                            <th scope="row">8</th>
+                            <td>Communication</td>
+                            <td>1.9</td>
+                            <td>Medium</td>
+                            <td>2</td>
+                        </tr>
+
+                        <!-- Ninth row -->
+                        <tr class="table-info">
+                            <th scope="row">9</th>
+                            <td>Recreation &amp; Culture</td>
+                            <td>10.5</td>
+                            <td>Medium</td>
+                            <td>17</td>
+                        </tr>
+
+                        <!-- Tenth row -->
+                        <tr class="table-info">
+                            <th scope="row">10</th>
+                            <td>Education</td>
+                            <td>2.6</td>
+                            <td>Low</td>
+                            <td>1</td>
+                        </tr>
+
+                        <!-- Eleventh row -->
+                        <tr class="table-info">
+                            <th scope="row">11</th>
+                            <td>Restaurants &amp; Hotels</td>
+                            <td>6.3</td>
+                            <td>Low</td>
+                            <td>7.0</td>
+                        </tr>
+
+                        <!-- Twelfth row -->
+                        <tr class="table-info">
+                            <th scope="row">12</th>
+                            <td>Miscellaneous Goods &amp; Services</td>
+                            <td>7.3</td>
+                            <td>High</td>
+                            <td>11</td>
+                        </tr>
+
+                        <!-- Thirteenth row -->
+                        <tr class="table-info">
+                            <th scope="row">13</th>
+                            <td>Furniture &amp; Household Goods</td>
+                            <td>6.3</td>
+                            <td>Medium</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+
+<!-- END OF CPI TABLE  -->
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+<!-- END OF Analysis page  -->
+
+
+
+<!--Future developments page/link???-->     
+</body>
+</html>

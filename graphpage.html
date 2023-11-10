@@ -17,6 +17,10 @@
             margin: 0;
             padding: 0;
         }
+        iframe canvas {
+            height:100%;
+            min-height: 300px;
+        }
     </style>
 
     
@@ -54,16 +58,16 @@
                             xAxisData.push(jsonchild.year);
                         }
                         if (jsonchild.country == "France") {
-                            data1.push(jsonchild.inflation_rate);
+                            data1.push(jsonchild.graph_value);
                         }
                         if (jsonchild.country == "Italy") {
-                            data2.push(jsonchild.inflation_rate);
+                            data2.push(jsonchild.graph_value);
                         }
                         if (jsonchild.country == "UK") {
-                            data3.push(jsonchild.inflation_rate);
+                            data3.push(jsonchild.graph_value);
                         }
                         if (jsonchild.country == "Germany") {
-                            data4.push(jsonchild.inflation_rate);
+                            data4.push(jsonchild.graph_value);
                         }
                     }
 

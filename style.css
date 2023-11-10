@@ -58,6 +58,20 @@ a {
     max-width:560px;
 }
 
+/* intro section, graph page jump to another page color button-Annie*/
+.custom-button {
+    padding: 10px 20px;
+    background-color: rgba(95, 194, 172, 0.808);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
 
 /*Navigation bar*/
 .navbar .navbar-nav .nav-link {
