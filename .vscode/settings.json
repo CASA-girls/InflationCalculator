@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "casa0017.cetools.org",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "ucqbutk",
+            "database": "ucqbutk",
+            "username": "ucqbutk"
+        }
+    ]
+}
