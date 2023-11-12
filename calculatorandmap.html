@@ -110,55 +110,141 @@
     </nav>
 
     <!-- Navigation bar end -->
-    <div style="height: 70px;"></div>
+    <div style="height: 100px;"></div>
     <!-- Calculator page build -->
 
     <div>
+        <!---Title-->
+        <div>
+            <h2>Inflation Calculator</h2>
+        </div>
+        <!--End title page-->
 
-        <div><span style="text-align: center;font-size: 40px;color: black;">Inflation Calculator</span></div>
-        <table style="width: 100%;font-size: 18px;" border="0" cellspacing="0">
-            <tr style="text-align: left;height: 100px;color: black;font-size: 21px;">
-                <td>How much ￡<input type="text" id="pound" value="" /> in <select id="yearSelect">
-                        <option value="">Select year</option>
-                    </select> is worth in <select id="targetyearSelect">
-                        <option value="">Select target year</option>
+        <!--divider-->
+<div style="height: 90px;"></div>
 
-                    </select><button onclick="calculateInflation()" style="width: 100px;height: 32px;"> Go </button>
-                </td>
-            </tr>
+        <!--Input numerical amount-->
+        <div class="container">
+            <div class="row"> 
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="pound" class="col-form-label col-form-label-lg mt-2 fw-italic text-dark">How much £...</label>
+                        <input class="form-control form-control-lg" type="text" id="pound" placeholder="Enter amount">
+                    </div>
+                </div>
+        
+    <!--Select box-->
+            <div class=col-md-3> <!--Adjust size-->
+                <div class="form-group">
+                    <label for="yearSelect" class="col-form-label-lg form-label-sm mt-1 fw-italic text-dark">Select Year...</label>
+                    <select class="form-control" id="yearSelect">
+                        <option value="">Select year</option> 
+                    </select>
+                </div>
+            </div>
+        
 
-            <tr style="text-align: left;height: 100px;color: black;font-size: 21px;">
-                <td>France £<input type="text" readonly="true" id="France" value="" />
-                    Italy £<input type="text" readonly="true" id="Italy" value="" />
-                    UK £<input type="text" readonly="true" id="UK" value="" />
-                    Germany £<input type="text" readonly="true" id="Germany" value="" /> </td>
-            </tr>
-            <tr>
-                <td>
+    <!--Target year Select box-->
 
-                    <div style="height: 90%;">
-                        <img src="/images/2.jpg" class="number-image">
-                        <div style="position:absolute; z-index:2; width:100%; top:630px;">
-                            <strong> <span id="newuk" style="color: rgb(3, 31, 56);"></span></strong>
-                        </div>
+    <div class=col-md-3> <!--Adjust size-->
+        <div class="form-group">
+            <label for="targetyearSelect" class="col-form-label-lg form-label-sm mt-1 fw-italic text-dark">Is worth In...</label>
+            <select class="form-control" id="targetyearSelect">
+                <option value="">Select Target Year</option> 
+            </select>
+        </div>
+    </div>
 
-                        <div style="position:absolute; z-index:2; left:250px; top:760px;">
-                            <strong> <span id="newFrance" style="color: rgb(3, 31, 56);"></span></strong>
-                        </div>
+        <!--Go Button Placed-->
+         
+          <div class="col-md-3">
+            <div class="form-group d-flex align-items-end">
+                <button onclick="calculateInflation()" class="btn btn-outline-secondary service border-hover 60px">Go</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Divider-->
+<div style="height: 45px;"></div>
+<!---End-->
+
+<div class="container">
+    <div class="row"> 
+        <!-- France Input Field -->
+        <div class="col-md-3">
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4 fw-italic text-dark" for="readOnlyInput">France £</label>
+                    <input class="form-control" id="France" type="text" placeholder="..." value="">
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- Italy Input Field -->
+        <div class="col-md-3">
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4 fw-italic text-dark" for="readOnlyInput">Italy £</label>
+                    <input class="form-control" id="Italy" type="text" placeholder="..." value="">
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- UK Input Field -->
+        <div class="col-md-3">
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4 fw-italic text-dark" for="readOnlyInput">UK £</label>
+                    <input class="form-control" id="UK" type="text" placeholder="..." value="">
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- Germany Input Field -->
+        <div class="col-md-3">
+            <div class="form-group">
+                <fieldset>
+                    <label class="form-label mt-4 fw-italic text-dark" for="readOnlyInput">Germany £</label>
+                    <input class="form-control" id="Germany" type="text" placeholder="..." value="">
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-                        <div style="position:absolute; z-index:2; left:400px; top:830px;">
-                            <strong> <span id="newItaly" style="color: rgb(3, 31, 56);"></span></strong>
-                        </div>
+                    <!--divider-->
+                    <div style="height: 60px;"></div>
+                    <!---End-->
 
-                        <div style="position:absolute; z-index:2; left:400px; top:650px;">
-                            <strong> <span id="newGermany" style="color: rgb(3, 31, 56);"></span></strong>
+
+                    <!--Map & frame-->
+                    <div class="card">
+                        <div class=col-md-3> 
+                        <div class="card-body">
+                            <!-- Map and its related elements -->
+                            <div style="height: 90%; position: relative;">
+                                <img src="/images/2.jpg" class="number-image" style="width: 100%; height: auto;">
+                                
+                                <div style="position:absolute; z-index:2; left:250px; top:760px;">
+                                    <strong> <span id="newFrance" style="color: rgb(3, 31, 56);"></span></strong>
+                                </div>
+                    
+                                <div style="position:absolute; z-index:2; left:400px; top:830px;">
+                                    <strong> <span id="newItaly" style="color: rgb(3, 31, 56);"></span></strong>
+                                </div>
+                    
+                                <div style="position:absolute; z-index:2; left:400px; top:650px;">
+                                    <strong> <span id="newGermany" style="color: rgb(3, 31, 56);"></span></strong>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </td>
-            </tr>
-        </table>
-    </div>
+                    </div>
+
+                    <!--end-->
+                    
     <script>
 
         var yearSelect = document.getElementById("yearSelect");
