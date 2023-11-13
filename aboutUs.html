@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-offset="60">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross Country Carbon and Inflation Calculator</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+   <!--HEAD The following are the graph part inserted by Annie(not final version)-->
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Historical Graph </title>
+   
+    <!--Same as above-->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" style="background-color: rgb(230, 231, 237);" cz-shortcut-listen="true">
+   <!--Background spheres addition external css addition-->
+   <style>
+        body {
+            background-image: url('images/neumorphic grey.png');
+        }
+        /* Style for the navigation bar */
+        .navbar {
+            height: 70px; /* Adjust the height as needed */
+        }
+
+        .table-container {
+        max-height: 250px; /* Adjust the maximum height as needed */
+        overflow-y: auto;
+         }
+
+    </style>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg py-2 fixed-top navbar-light custom-shadow" style="background-color:rgb(230, 231, 237);">
+       
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <h3 class="fw-bold">CCCIC</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="toggleNavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation bar buttons -->
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hove fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="/">Home<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./aboutUs.html">About Us<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./historicalgraph.html">Historical Graphs<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./calculatorandmap.html">Calculator &amp; Map<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary service border-hover fw-italic text-dark" style="background-color:rgb(230, 231, 237);" href="./analysispage.html">Analysis<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <!--News feed icon and link-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-newspaper" viewBox="0 0 16 16">
+                        <path
+                            d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z">
+                        </path>
+                        <path
+                            d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z">
+                        </path>
+
+                    </svg>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                           
+   
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex"></form>
+            </div>
+        </div>
+    </nav>  
+   
+    <!-- Navigation bar end -->
+
+
+    <!-- Home page  -->
+    <!--divider-->
+    <div id="hero" class="section-padding" style="padding-top: 90px;">
+           
+        <div class="container">
+            <div class="" style="display: flex; flex-wrap: wrap;">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images\picture-removebg-preview.png" class="" alt="diagram showing current and future development with tools used e.g API's" style="max-width: 100%;"> 
+                </div>
+               
+                <div class="col-lg-6">
+                    <h2 class="fw-italic display-4 text-dark">
+                        <span class="fw-italic text-dark">Cross Country Carbon Inflation Calculator</span>
+                    </h2>
+                    
+                    <div class="fw-italic text-dark">
+                        <p>Checking inflation rates in different countries helps you see how well each country is doing economically and whether it's a good place to invest money in or travel.
+                        </p>
+                        <p> However, sustainable investing has become a significant trend. Investors increasingly favour countries and companies that demonstrate a commitment to reducing carbon emissions. Assessing a country's carbon emissions can be integral to aligning investments with long-term sustainability goals.
+                        </p>  
+                        <p> At its current development stage, this website allows the users to interact with historical inflation and carbon data and compare how the purchasing power changed over time in GB, FR, DE and IT, compare countries’ inflation performance and correlate it with carbon emissions that year.
+                        </p>
+                        <p> <strong>KEY FUTURE DEVELOPMENT: Connect human activity data with the environment. </strong></p>
+                        <p>
+                            <strong><u><i>How could this be done?</i></u></strong>
+                        </p>
+                        
+                        <p> Countries report CO2 emissions based on accounting, i.e. check national production across all sectors and multiply with typical carbon emissions. However, more activities are done using renewable power or grid mix power and accounting is not able to cater for this change. 
+                        </p>
+                        <p>Satellite sensor technology adopted by space agencies can however can overcome this challenge by measuring sunlight’s interaction with the Earth’s atmosphere.
+                            </p>
+
+                        <p><strong>Sensors and satellite network connectivity can connect human activity data with the environment and help figure out if inflation is correlated with CO2 emissions and potentially help accelerate sustainable investments.</strong>
+                           </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div> <!-- EB comment: closes section padding for home page -->

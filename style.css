@@ -106,8 +106,20 @@ a {
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.7);
 }
 
-.cards-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;  
-    }
+.custom-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.custom-footer h6 {
+    font-size: 0.4rem;
+}
+
+.custom-footer img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
