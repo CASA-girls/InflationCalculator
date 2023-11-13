@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 About Us:
 We currently working on a web development project that <br>looks at the relationship between inflation and CO2 emissions.<br>We are have just completed our Connected Environments module; Casa-0017<br><br><br>Fun fact: Why do we put candles on top of birthday cakes?<br>Some believe that the tradition of birthday candles began <br>in Ancient Greece, when people brought cakes adorned with <br>lit candles to the temple of Artemis, goddess of the hunt. The candles were lit to make them glow like the moon, <br>a popular symbol associated with Artemis.
 
 
