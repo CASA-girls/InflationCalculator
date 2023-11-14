@@ -6,13 +6,9 @@ var mysql = require('mysql');
 
 module.exports = router
 
-
 //Request the back end to get data
 router.post('/getmultiplier', (req, res) => {
-
   var newjson = {}
-
-
   var conn = new mysql.createConnection(dbDevMsqlConfig);
 
   //Check whether the database connection is normal
