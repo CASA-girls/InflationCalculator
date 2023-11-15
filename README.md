@@ -30,21 +30,20 @@ How has the purchasing power changed over time in GB, FR, DE and IT and how do t
 **Why compare inflation across countries & technologies used**
 We observed that national emissions data primarily relies on estimations using accounting tools and assumptions, rather than directly sensing the environment. This realisation led to the formation of the phase 2 of the project, which aims to establish a connection between human activity (inflation) and measured CO2 presence in the environment. The phase 2  research question therefore is: 
 “How do purchasing power and CO2 presence correlate over time in GB, FR, DE, and IT, and how do these countries compare?”  
-*🚀 Checking inflation rates in different countries helps you see how well each country is doing economically and whether it's a good place to invest or travel. ​
+🚀 Checking inflation rates in different countries helps you see how well each country is doing economically and whether it's a good place to invest or travel. ​
 
-*🚀 Historical data helps us see how economies have grown or struggled in the past. ​
+🚀 Historical data helps us see how economies have grown or struggled in the past. ​
 
-*🚀 For those who travel or invest money, it gives insights into the safety, growth potential and CO@ reduction strategies of differing countries. ​
+🚀 For those who travel or invest money, it gives insights into the safety, growth potential and CO@ reduction strategies of differing countries. ​
 
-*🚀Learning from the past helps us make better decision.
+🚀 Learning from the past helps us make better decision.
 
 **Why could inflation correlate with CO2 emissions in the same year?**
 
-* reason 1 why co2 might be **higher** when inflation is higher
-* reason 2 why co2 might be **higher** when inflation is higher
-
-* reason 1 why co2 might be **lower** when inflation is higher
-* reason 2 why co2 might be **lower** when inflation is higher
+🚀 reason 1 why co2 might be **higher** when inflation is higher
+🚀 reason 2 why co2 might be **higher** when inflation is higher
+🚀 reason 1 why co2 might be **lower** when inflation is higher
+🚀 reason 2 why co2 might be **lower** when inflation is higher
 
 
 # Project Inspiration
@@ -65,19 +64,15 @@ It is a simple tool allowing the users to understand how much £X in year Y is w
 During the in-person workshop on the 15th of October we sketched the website, broken down the architecture into 4 key parts and divided responsibilities/ownership: 
 
 <img width="452" alt="Workflow" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/4b402db4-86cb-4b87-a3ce-78bacbc8ec35">
-We have also agreed on the milestones and key dates such as next review workshop and submission deadline.A timeline with purple and black text<img width="452" alt="timeline" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/acfd6bfc-42c0-4412-abc1-afeadaf1b252">
+
+We have also agreed on the milestones and key dates such as next review workshop and submission deadline.
+
+<img width="452" alt="timeline" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/acfd6bfc-42c0-4412-abc1-afeadaf1b252">
 
 
 
+The chosen architecture streamlined the data collection process, allowing us to efficiently pull the data into Visual Studio Code (VS Code). This facilitated seamless data analysis and the implementation of calculations to enhance user interaction with the Cross Country Carbon and Inflation Calculator (CCCIC) tool. This approach was deemed the most practical and straightforward, enabling us to achieve our desired outcomes within the defined project constraints.
 
-Description automatically generated
-
-**process flow**
-![1st pg](https://github.com/CASA-girls/InflationCalculator/assets/114082509/194b875d-cf45-471c-9039-7c78f5ea25b8)
- <img width="451" alt="2nd page" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/87a68321-51ef-4dae-8274-9b4caaf8a3bc">
-![3rd pg](https://github.com/CASA-girls/InflationCalculator/assets/114082509/0b8d772a-57b6-435b-91aa-8baa3e9aafdf)
-
-<img width="451" alt="4th pg" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/08bc149d-35aa-4e66-9f5e-ff54ead30664">
 
 **Design**
 <img width="452" alt="design timeline" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/27e1c245-5c40-4a00-a486-16d8356109bf">
@@ -86,16 +81,14 @@ Description automatically generated
 
 The main focus of the front end development was to enable the user to engage with an interface that provides more depth while maintaining a minimalist aesthetic, in turn providing an intuitive experience. This keeps in line with our website's core message, delivering imagery of how growth and inflation through time have a subsequential effect on our environment in a more digestible format that evokes awareness.  
 
-
 ![ux principles](https://github.com/CASA-girls/InflationCalculator/assets/114082509/c5aaeaf9-bf14-4a06-913a-e2da0ec83227)
-
 
 
 In the initial stages of creating the storyboard, we initially employed SASS/JavaScript packages as references (Themesberg, n.d.). While the UX user design seemed promising for conceptualising the website, facilitating the seamless addition of website elements by all team members and smooth integration posed a challenge. This limitation in flexibility led to the decision to opt for UI design, utilising the pre-built Bootswatch/CSS framework for formatting instead.  
 
 The main goal for choosing the right UI design was to portray a modern computational aesthetic using neumorphic design, instead of using contrasting darker neon colours and more pronounced pastel colours to aid the visibility of users and those with vision impairments, providing more depth to the website, whilst attracting the attention and guiding the user when exploring interactive graphs and key snippets of information. This is one of the key features for accessible design good practice (Vo, 2020).  
 
-
+Using Bootswatch and Bootstrap helped to set the theme which is a consistent modern look in the design process, with features such as buttons, navbars, and input and output boxes that mimic real life buttons and have 3D features.
 
 ## Back End overview
 VS Code Chart Creation Workflow: 
