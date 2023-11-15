@@ -93,7 +93,7 @@ Finally, we agreed on a set of tools that would help us get programming tips (Ch
 
 #  💫 Design Development Journey for Phase 1
 
-## Dsign, storyboarding and outline of the website
+## Design, storyboarding and outline of the website
 
 First of all we worked on the sketching of the website. During the in person workshop 1 we drew paper sketches to agree on a common goal/look of the website and agreed on functionalities such as buttons, user interaction, input and output boxes, storyline and visualisations of the data. We then transferred the sketch into a power point which helped us to  get a feel for the outcome. 
 
@@ -105,15 +105,31 @@ These several mock-ups created using PowerPoint and then Figma helped to achieve
 
 <img width="452" alt="design timeline" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/27e1c245-5c40-4a00-a486-16d8356109bf">
 
-*Design choices, principles and implementation
+**Design choices, principles and implementation**
 
 The main focus of the front end development was to enable the user to engage with an interface that provides more depth while maintaining a minimalist aesthetic, in turn providing an intuitive experience. This keeps in line with our website's core message, delivering imagery of how growth and inflation through time have a subsequential effect on our environment in a more digestible format that evokes awareness. 
+
 In the initial stages of creating the storyboard, we initially employed SASS/JavaScript packages as references (Themesberg, n.d.). While the UX user design seemed promising for conceptualising the website, facilitating the seamless addition of website elements by all team members and smooth integration posed a challenge. This limitation in flexibility led to the decision to opt for UI design, utilising the pre-built Bootswatch/CSS framework for formatting instead. 
+
 The main goal for choosing the right UI design was to portray a modern computational aesthetic using neumorphic design, instead of using contrasting darker neon colours and more pronounced pastel colours to aid the visibility of users and those with vision impairments, providing more depth to the website, whilst attracting the attention and guiding the user when exploring interactive graphs and key snippets of information. This is one of the key features for accessible design good practice (Vo, 2020). 
-The background was to also correlate that there was more depth to the imagery than the standard web calculators as for example our inspiration Historical UK inflation rates and price conversion calculator website (iamkate, n.d.). Our goal was to establish an immersive experience, offering greater potential for expansion with live and intricate data sets. The typography used is clear, simple, and contrasting to benefit the visibility of the user, a juxtaposition to the more interactive features of the website as it is a widely accepted good practice (Webflow, n.d.)  
+
+The background was to also correlate that there was more depth to the imagery than the standard web calculators as for example our inspiration Historical UK inflation rates and price conversion calculator website (iamkate, n.d.). Our goal was to establish an immersive experience, offering greater potential for expansion with live and intricate data sets. The typography used is clear, simple, and contrasting to benefit the visibility of the user, a juxtaposition to the more interactive features of the website as it is a widely accepted good practice (Webflow, n.d.).
+
+![ux principles](https://github.com/CASA-girls/InflationCalculator/assets/114082509/c5aaeaf9-bf14-4a06-913a-e2da0ec83227)
+
+Using Bootswatch and Bootstrap helped to set the theme which is a consistent modern look in the design process, with features such as buttons, navbars, and input and output boxes that mimic real life buttons and have 3D features. This is one of the key elements of neumorphic design (Anon, n.d.). These frameworks were shared among the other group members so they could familiarise themselves with the design theme and incorporate their own elements into it. Bootswatch also allowed for the website to remain consistent across different browsers, allowing users to engage with the website's core message. These scripts were more reliable and responsive and had a lot more documentation to support front-end development. 
+
+At first we were presented with resizing issues when adapting to different screen sizes. However, we wanted to ensure that design allows dynamic adjustment as the web page size is adjusting, hence we as a team worked on figuring out the hierarchy of the elements and how Bootstrap/CSS formatting works. We ensured that key elements were sized in % terms in relation to their parent and children elements rather than fixed size in pixels and also used padding, which allowed us to achieve the aforementioned goal.
 
 
-## Front End overview
+
+## Backend Development
+
+** Data collection, handling, cleaning and management of dataset**
+
+For the first phase of our project, our primary focus was on gathering historical Consumer Price Index (CPI) inflation data spanning from 1960 for Great Britain, Germany, Italy, and France. The CPI inflation data was sourced from the MacroTrends website (MacroTrends, n.d.), while the CO2 data was obtained from the Our World in Data website (Our World in Data, n.d.). Combining these datasets, we created a comprehensive Excel file, which was subsequently uploaded to the MySQL server's database named "ucqbutk@casa0017.cetools.org" under the table Inflation Calculator.
+
+
 
 The main focus of the front end development was to enable the user to engage with an interface that provides more depth while maintaining a minimalist aesthetic, in turn providing an intuitive experience. This keeps in line with our website's core message, delivering imagery of how growth and inflation through time have a subsequential effect on our environment in a more digestible format that evokes awareness.  
 
