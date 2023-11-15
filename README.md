@@ -13,8 +13,7 @@ The future phase of CCCIC (roll-out TBC) will bridge this gap by introducing a c
 
 # 💫 User Journey Demonstration
 
-[![User Journey](ttps://github.com/CASA-girls/InflationCalculator/blob/main/user%20journey.mp4)](ttps://github.com/CASA-girls/InflationCalculator/blob/main/user%20journey.mp4)
-
+[![User Journey Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://github.com/CASA-girls/InflationCalculator/blob/main/user%20journey.mp4)
 
 
 # 💫 Introduction to the topic
