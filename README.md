@@ -22,20 +22,24 @@ We currently working on a web development project that <br>looks at the relation
 # Cross Country Inflation Calculator
 
 Summary: What is the website, relation to connected environments. 1-2 sentences.
+Our Cross Country Carbon and Inflation Calculator is simple tool allowing the users to understand how much £X in year Y is worth in a given year. CCCIC took this concept and adapted it to allow users to interact with multi-country data, i.e. compare how much £X in year Y is worth in a given year across multiple countries.  
+
+Initially, our research question was shaped by the desire to understand how purchasing power had evolved over time in GB, FR, DE, and IT, with a focus on comparing these countries. The primary audience for this inquiry was investors seeking insights into the impact of inflation across different nations. 
 
 # Research Question
 
 How has the purchasing power changed over time in GB, FR, DE and IT and how do these countries compare?​ Has purchasing power been correctalted with carbon emissions in the same year?
 
-**Why would we want to compare inflation across countries?**
+**Why compare inflation across countries & technologies used**
+We observed that national emissions data primarily relies on estimations using accounting tools and assumptions, rather than directly sensing the environment. This realisation led to the formation of the phase 2 of the project, which aims to establish a connection between human activity (inflation) and measured CO2 presence in the environment. The phase 2  research question therefore is: 
+“How do purchasing power and CO2 presence correlate over time in GB, FR, DE, and IT, and how do these countries compare?”  
+* 🚀 Checking inflation rates in different countries helps you see how well each country is doing economically and whether it's a good place to invest or travel. ​
 
-* Checking inflation rates in different countries helps you see how well each country is doing economically and whether it's a good place to invest or travel. ​
+* 🚀 Historical data helps us see how economies have grown or struggled in the past. ​
 
-* Historical data helps us see how economies have grown or struggled in the past. ​
+*🚀 For those who travel or invest money, it gives insights into the safety, growth potential and CO@ reduction strategies of differing countries. ​
 
-* For those who travel or invest money, it gives insights into the safety and growth potential of different places. ​
-
-* Learning from the past helps us make better decision.
+*🚀Learning from the past helps us make better decision.
 
 **Why could inflation correlate with CO2 emissions in the same year?**
 
@@ -48,18 +52,33 @@ How has the purchasing power changed over time in GB, FR, DE and IT and how do t
 
 # Project Inspiration
 
-link to website, include the screenshot
+The inspiration for the inflation calculator tool came from the historical UK inflation rates and price conversion calculator (iamkate, n.d.).  
+
+A screenshot of a calculator
+
+Description automatically generated 
+
+Figure 1: Historical UK inflation rates and price conversion calculator (iamkate, n.d.) 
+
+ A screenshot of a calculator
+
+Description automatically generated
+
+It is a simple tool allowing the users to understand how much £X in year Y is worth in a given year. CCCIC took this concept and adapted it to allow users to interact with multi-country data, i.e. compare how much £X in year Y is worth in a given year across multiple countries.
 
 ## Link to connected environments
 
-text and diagram
 
 # Approach to team work and project management
+During the in-person workshop on the 15th of October we sketched the website, broken down the architecture into 4 key parts and divided responsibilities/ownership: 
 
-responsibilities
-tasks 
-timeline
+A close-up of a couple of pink objects
 
+Description automatically generated 
+
+A timeline with purple and black text
+
+Description automatically generated
 # Methodology
 
 **process flow**
