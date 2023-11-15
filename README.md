@@ -11,13 +11,13 @@ The future phase of CCCIC (roll-out TBC) will bridge this gap by introducing a c
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-# User Journey Demonstration
+# 💫 User Journey Demonstration
 
 [![User Journey](ttps://github.com/CASA-girls/InflationCalculator/blob/main/user%20journey.mp4)](ttps://github.com/CASA-girls/InflationCalculator/blob/main/user%20journey.mp4)
 
 
 
-# Introduction to the topic
+# 💫 Introduction to the topic
 
 As the transition to net zero is unfolding in the UK and across Europe at full speed, there is a shift to invest sustainably. This shift is in part fuelled by a heightened awareness of the repercussions of carbon intensity to our planet and human life (Halady and Rao, 2010). However, the attractiveness of low carbon investments is also linked to diminished long-term economic risks, attributable to rising carbon pricing and stringent regulations. 
 
@@ -51,7 +51,7 @@ We observed that national emissions data primarily relies on estimations using a
 🚀 reason 2 why co2 might be **lower** when inflation is higher
 
 
-# Project Inspiration
+# 💫 Project Inspiration
 
 The inspiration for the inflation calculator tool came from the historical UK inflation rates and price conversion calculator (iamkate, n.d.).  
 
@@ -84,13 +84,34 @@ We have also agreed on the milestones and key dates such as next review workshop
 
 <img width="452" alt="timeline" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/acfd6bfc-42c0-4412-abc1-afeadaf1b252">
 
+Finally, we agreed on a set of tools that would help us get programming tips (Chinese Software development Network or CSDN), sketch website design (Canva, Figma/Wire Frame) and track tasks which each group member is working on (GitHub Project Manager).
 
 
-The chosen architecture streamlined the data collection process, allowing us to efficiently pull the data into Visual Studio Code (VS Code). This facilitated seamless data analysis and the implementation of calculations to enhance user interaction with the Cross Country Carbon and Inflation Calculator (CCCIC) tool. This approach was deemed the most practical and straightforward, enabling us to achieve our desired outcomes within the defined project constraints.
 
 
-**Design**
+
+
+#  💫 Design Development Journey for Phase 1
+
+## Dsign, storyboarding and outline of the website
+
+First of all we worked on the sketching of the website. During the in person workshop 1 we drew paper sketches to agree on a common goal/look of the website and agreed on functionalities such as buttons, user interaction, input and output boxes, storyline and visualisations of the data. We then transferred the sketch into a power point which helped us to  get a feel for the outcome. 
+
+Sarah then as our UI lead transferred the agreed look and functionalities into Figma (Appendix 1) and finally chose the UI framework that can cater for the website’s needs, project timelines and the agreed overall design.
+
+Using wireframes and storyboards aided our visualisation of how our website should be navigated and used, especially in considering the logical flow and narrative. Creating wireframes and storyboards facilitated the planning and job division allowing us to visualise the final product in a common way. This allowed us to focus on more challenging aspects of the project within the given timeframe.
+
+These several mock-ups created using PowerPoint and then Figma helped to achieve a clearer pathway to achieving the end result.
+
 <img width="452" alt="design timeline" src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/27e1c245-5c40-4a00-a486-16d8356109bf">
+
+*Design choices, principles and implementation
+
+The main focus of the front end development was to enable the user to engage with an interface that provides more depth while maintaining a minimalist aesthetic, in turn providing an intuitive experience. This keeps in line with our website's core message, delivering imagery of how growth and inflation through time have a subsequential effect on our environment in a more digestible format that evokes awareness. 
+In the initial stages of creating the storyboard, we initially employed SASS/JavaScript packages as references (Themesberg, n.d.). While the UX user design seemed promising for conceptualising the website, facilitating the seamless addition of website elements by all team members and smooth integration posed a challenge. This limitation in flexibility led to the decision to opt for UI design, utilising the pre-built Bootswatch/CSS framework for formatting instead. 
+The main goal for choosing the right UI design was to portray a modern computational aesthetic using neumorphic design, instead of using contrasting darker neon colours and more pronounced pastel colours to aid the visibility of users and those with vision impairments, providing more depth to the website, whilst attracting the attention and guiding the user when exploring interactive graphs and key snippets of information. This is one of the key features for accessible design good practice (Vo, 2020). 
+The background was to also correlate that there was more depth to the imagery than the standard web calculators as for example our inspiration Historical UK inflation rates and price conversion calculator website (iamkate, n.d.). Our goal was to establish an immersive experience, offering greater potential for expansion with live and intricate data sets. The typography used is clear, simple, and contrasting to benefit the visibility of the user, a juxtaposition to the more interactive features of the website as it is a widely accepted good practice (Webflow, n.d.)  
+
 
 ## Front End overview
 
