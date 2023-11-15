@@ -197,37 +197,143 @@ The backend would be retrieving data using these two APIs:
 
 *Figure 9: News and live feed feature*
 
-## Back End overview
-VS Code Chart Creation Workflow: 
-
-Our workflow encompassed several key steps to ensure a smooth and effective chart creation process: 
-
-Research: Chart library selection (Apache ECharts). The bar chart was chosen for exchange rates, and the line chart was chosen for carbon dioxide emissions. 
-
-Pulling the data from MySQL: The initial phase involved connecting MySQL to VS Code using the MySQL extension. This included downloading the MySQL extension, securely logging into the established group database (password securing steps explained in the following section), and importing data into the charts. 
-
-Connecting Frontend and Backend / establishing an API: The final step in the data visualization process involved connecting the charts and web pages to the backend server. A node.js API was built, leveraging Express to facilitate smooth interaction between the frontend and backend. Express framework was installed using the npm package manager with the command 'npm install express –save.' Express is a highly flexible and high-performance Node.js framework designed for efficiently building web applications and APIs. The inspiration was taken from the CSND blog post (blog.csdn.net, 2023). 
-
-Plotting the charts: The process involved creating a chart container, initialising the chart, configuring it and binding with the data. A folder and an HTML file named "Graphpage.html" were created on VS Code. ECharts was installed using the terminal command "npm install echarts," and the chart's setup involved creating a folder named "node_modules." Subsequently, the "echarts.js" file was located, copied from its original folder and seamlessly incorporated it into the HTML file at the correct file path, along with JQuery. Within the HTML, a container was established to define and fine-tune the chart's size. The ECharts instance was then initialised, and data arrays for inflation and years were defined. This marked the completion of all content creation and setup. Additionally, a variable named "data" was employed to define four data arrays for inflation data (Y-axis for each country) and another data array for storing year data. 
-
-A screenshot of a computer
-
-Description automatically generated
-
-## Other tools used
 
 
-<img width="461" alt="tools " src="https://github.com/CASA-girls/InflationCalculator/assets/114082509/950acaa7-d5dd-41b6-9104-b8230b830152">
+
+**Security of the database and password protection**
+Ensuring the security of sensitive information, such as database passwords, is paramount in web development. In our project, we implemented a robust security measure to protect the confidentiality of our MySQL database password. Our approach involved creating an ".env" file within the backend folder, allowing us to store the database password securely. We then created a ".gitignore" file which prevented the ".env" file, containing the password, from being included in the GitHub repository. This idea was used based on the Plat Monitor CE Workshops (CE Tools (a), n.d.) and Stack Overflow article on how to hide API key for a GitHub Page (Stack Overflow, 2013).
+
+**Hosting the website on a server**
+For a website to function, it requires a safe server that can host content to users 24/7, allowing them to interact with the site. To bring our phase 1 prototype to life and conduct an initial market test, we recognised the necessity of publishing the website and make it accessible to potential users. This would help to improve the existing protype and further refine the phase 2 of the website discussed I the next section. 
+
+We utilised the casa0017.cetools.org/group4 server provided by UCL and accessible to UCL staff and students. The process of hosting involved building a Node.js API, a critical component for connecting the frontend and backend services. The guidance from Workshop 5, "Introduction to Node.JS" for Web Architecture, proved invaluable in steering our server-side development efforts (CE Tools (b), n.d.). 
+
+We used PuTTY to upload all VS Code files of the project into the server, which would allow users that know the web address (and have access to UCL’s VPN service) to access our tool and test it. During the process of connecting to the server, we encountered a few issues related to page pathways, which we addressed by refining the navigation bar, which then restored the functionality.
+Our website can be found using the following link:  http://casa0017.cetools.org/~group4/index.html 
+
+Note it is a requirement to be connected either to the UCL’s Wi-Fi service or VPN to be able to access the server. 
 
 
-# Future improvements to the website
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/0c988271-e112-4983-8e72-8d18b143bd0b)
 
-The idea of connected environments is a fundamental element of our website's design focus, looking at a seamless and 3D element that provides depth to a topic. It shows an understanding that sustainable investments fall within a larger global framework, particularly one that focuses on the transition to net zero. We created an engaging platform depicting a website that offers more than a simple calculator but one of perspective and a holistic approach to addressing investment and sustainability.  
 
-The final feature of the phase one prototype is a news feed on the transition to net zero related topics and macro trends driving inflation across countries of interest. 
+*Figure 10: Website's home page*
 
-![news feed](https://github.com/CASA-girls/InflationCalculator/assets/114082509/c7176d54-c317-40e9-b218-a89230b5cdc0)
 
-A screenshot of a computer
 
-Description automatically generated 
+**User journey when using the website**
+
+Upon opening the website, users are greeted with the homepage featuring a menu that shows the core sections of our platform. The menu is designed for an interactive experience, allowing users to navigate through the site either via menu links or the top navigation bar.
+
+The second page, "About Us," serves as an introduction, providing users with insights into the topics of CO2 emissions and inflation, the current state of the website as well as the development plans for connecting the website with data form sensors. This is a focal point in the future development of the platform. It suggests why exploring the data and delving into these subjects could be compelling. 
+
+The third page is visualisation of the historical data. This allows the user to familiarise with the historical data. The page also allows the user to view charts at full scale and compare countries. 
+
+The subsequent calculator and map page allows users to actively engage with the data. Users can choose specific inputs, and the outputs are dynamically represented on a map. This interactive feature enhances the user experience, enabling a more hands-on exploration of the data.
+
+The final page is discussing further considerations within the wider context that the user should be taking into account such as the basket of goods and other affecting inflation factors and why it could be different among countries.
+
+For users keen on staying informed, a news link offers a feed of topics related to the transition to net zero and macro trends driving inflation across the countries of interest. The news link provides a feed of news on the transition to net zero related topics and macro trends driving inflation across countries of interest.
+
+Throughout their journey, users experience smooth navigation between pages using the navigation bar at the top. Users also have the flexibility to dynamically adjust the size of page and website’s elements should resize to fit the screen. This cohesive and interactive design ensures a user-friendly and engaging exploration of the platform's offerings.
+
+The User Journey video demonstrating the website can be downloaded from the GitHub repository here (or https://github.com/CASA-girls/InflationCalculator/blob/main/user%20journey.mp4).
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/09608e37-f860-4ea0-8ad0-5822e1497647)
+
+*Figure 11: User Journey Video*
+
+#  💫 Phase 2 concept design, benefits and challenges 
+
+
+The second phase of the CCCIC platform will aim to explore enhancing the tool's capabilities by integrating an innovative sensed data layer. This ambitious step involves adopting Internet of Things (IoT) architecture and technologies to connect human behaviour (economic activity) with the environment. The motivation behind this evolution is the ongoing transformation of traditionally carbon-intensive industries and the global shift towards greener production methods that are not yet standardised across countries, industries, or companies. Conventional accounting systems struggle to accommodate this change, rendering traditional data acquisition methodologies incapable of accurately reflecting reality.
+
+**How to measure CO2 at national level, acquire this data and connect it with human activity data?**
+
+In his recent book published in October 2023 on the Future of Geography Tim Marshall explores the opportunities that commercial satellites have in the lower Earth’s orbit (Marshall, 2023). According to him, a number of commercial satellites from various countries and the space agencies can already measure and are measuring the sunlight’s interaction with the Earth’s atmosphere. 
+
+Sensors and satellite network connectivity can connect human activity data with the environment, assessing inflation's correlation with CO2 emissions in real-time. As countries transition to net-zero, this capability could potentially accelerate sustainable investments, providing timely and accurate insights into the evolving relationship between economic indicators and environmental factors.
+
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/b6767ba5-9e62-4d0e-828a-4c981e992018)
+
+
+*Figure 12: Introducing connected environments into the website*
+
+
+The introduction of connected environments through satellite sensors and IoT technology could bring numerous benefits. This high-level sensor connectivity, linking satellites, databases, and human-generated data, would allow for a more nuanced understanding of the relationship between human economic activities and environmental impact. One significant advantage lies in real-time data analysis, enabling users to observe and comprehend the immediate correlation between inflation and CO2 emissions. This enhanced capability provides timely insights for sustainable investments, guiding decision-makers in navigating the evolving dynamics between economic indicators and environmental factors.
+
+However, with great innovation comes substantial challenges. The technology is used but “eye wateringly” expensive. The lower Earth’s orbit is getting crowded, increasing the probability of crashes and resulting debris which can then fall into the Earth’s atmosphere and cause great damage to human life and the environment. Most importantly, if not secured such information and surveying devices could then be expanded to spy very precise territories and identify sources of emissions (or misuse other sensors in the satellite). In a positive cases, companies would be kept accountable for their actions, but military factories are also great sources of emissions and therefore such innocent tool surveying emissions, if too precise, might have geopolitical implications (Marshall, 2023).
+
+Going back to earth, there is also the complexity of transitioning from conventional accounting methods to a sensor-driven, real-time data model. Conventional accounting systems, rooted in historical production-based calculations, may struggle to adapt to the dynamic and instantaneous nature of sensed data, large servers would be required which would instantly increase the costs. Ensuring the accuracy, reliability, and standardisation of data collected through satellite sensors and IoT devices poses another significant challenge.
+
+In summary, the integration of such advanced technologies requires meticulous planning, considerable investment, and potential adjustments to regulatory frameworks in space which is yet not regulated and is a platform for competition between nations (Marshall, 2023).
+
+
+#  💫 Reflection  💫
+
+In the above report we described in detail the drivers, concept creation/formulation and development process of  phase 1 of the CCCIC tool. At its current version the CCCIC tool is gathering human activity data (inflation) and linking with the accounted for CO2 data at the national level. 
+
+To our best knowledge connected environments and Internet of Things have not been used in this context. We see numerous benefits for our chosen website’s audience (cross country investors) but also other segments of the society. Therefore, we are in planning of the phase 2 of the project, which would connect human activity with the environment in real time. The only practical way how this could be done is via satellite sensors that would measure the sunlight’s interaction with the Earth’s atmosphere. 
+
+The last sections elaborates on some of the benefits and challenges of this approach and our concluding remark is that connected environments can help make more accurate decisions but it comes at a significant cost and potentially some threats (security, etc).
+
+
+
+
+## Apendix 1: Figma website sketch
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/53daa51c-1d26-4a5e-9225-8a07ef0be0b1)
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/a5d301e9-cb5e-48b9-9836-6e0fe4c1e3bd)
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/e87e3180-1c84-48e6-9d5c-b990f7a3f97e)
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/48971a33-108e-4b8c-b492-b11fb8e44ba2)
+
+![image](https://github.com/CASA-girls/InflationCalculator/assets/85103939/e87572c0-f447-43cf-9b89-2774e01d03e8)
+
+
+# References 
+
+1.	baike.baidu.com. (n.d.). Inflation. [online] Available at: https://baike.baidu.com/item/%E9%80%9A%E8%B4%A7%E8%86%A8%E8%83%80%E7%8E%87/3114339.
+2.	blog.csdn.net. (2023). express Building a Foundation Project _express Building a Project - CSDN Blog. [online] Available at: https://blog.csdn.net/qq_53596342/article/details/129654215?ops_request_misc=&request_id=&biz_id=102&utm_term=%E6%90%AD%E5%BB%BAmysql%20express%20cors&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-3-129654215.nonecase&spm=1018.2226.3001.4187 [Accessed 5 Nov. 2023].
+3.	CE Tools (a). 'Plant Monitoring System Workshop.' [online] Available at: https://workshops.cetools.org/codelabs/CASA0014-2-Plant-Monitor/index.html?index=..%2F..casa0014#5 (Accessed 14 November 2023).
+4.	CE Tools (b). ‘Introduction to Node.JS.' [online] Available at: https://workshops.cetools.org/codelabs/CASA0014-2-Plant-Monitor/index.html?index=..%2F..casa0014#5 (Accessed 14 November 2023).
+5.	Developer.baidu.com. (2023). Auto Scaling Button jQuery Focus Map-Baidu Developer Center. [online] Available at: https://developer.baidu.com/article/detail.html?id=327028 [Accessed 4 Nov. 2023].
+6.	Echarts (n.d.). Examples - Apache ECharts. [online] echarts.apache.org. Available at: https://echarts.apache.org/examples/en/editor.html?c=dataset-series-layout-by [Accessed 14 Nov. 2023].
+7.	GPRM. GitHub Profile ReadMe Maker. Available at: [https://gprm.itsvg.in/#google_vignette] (Accessed: 14 November 2023).
+8.	Highcharts. (n.d.). Interactive JavaScript charts for your webpage | Highcharts. [online] Available at: https://www.highcharts.com/.
+9.	Hudson-Smith, A., Wilson, D., Hay, D. and Gray, S., 2019. Little Book of Connected Environments and the Internet of Things.
+10.	ING. 'Hydrogen sparks change for the future of green steel production', Think, Available at: https://think.ing.com/articles/hydrogen-sparks-change-for-the-future-of-green-steel-production/ (Accessed: 14 November 2023).
+11.	Kate. UK Inflation calculator. Available at: [https://iamkate.com/data/uk-inflation/] (Accessed: 14 November 2023).
+12.	MacroTrends. Inflation Rate CPI - Countries. Available at: [https://www.macrotrends.net/countries/ranking/inflation-rate-cpi] (Accessed: 14 November 2023).
+13.	Marshall, T., 2023. The future of geography: How Power and Politics in Space Will Change Our World. Simon and Schuster.
+14.	Moessner, R., 2022. Effects of carbon pricing on inflation.
+15.	News API. (n.d.). News API – Search News and Blog Articles on the Web. [online] Available at: https://newsapi.org.
+16.	npm. (2021). dotenv. [online] Available at: https://www.npmjs.com/package/dotenv
+17.	Observable - Explore, analyze, and explain data. As a team. [online] Available at: https://observablehq.com/.
+18.	Our World in Data. CO2 and Greenhouse Gas Emissions. Available at: [https://ourworldindata.org/co2-and-greenhouse-gas-emissions] (Accessed: 14 November 2023).
+19.	Stack Overflow. 2013. 'Hide API Key for a GitHub Page.' [online] Available at: https://stackoverflow.com/questions/21939713/hide-api-key-for-a-github-page (Accessed 14 November 2023).
+20.	The Apache Software Foundation Apache ECharts (n.d.). downloads - Apache ECharts. [online] echarts.apache.org. Available at: https://echarts.apache.org/en/download.html [Accessed 3 Nov. 2023].
+21.	The Apache Software Foundation Apache ECharts (n.d.). Documentation - Apache ECharts. [online] echarts.apache.org. Available at: https://echarts.apache.org/en/tutorial.html#ECharts%205%20Upgrade%20Guide [Accessed 4 Nov. 2023].
+22.	winscp.net. (n.d.). Downloading WinSCP-6.1.2-Setup.exe :: WinSCP. [online] Available at: https://winscp.net/download/WinSCP-6.1.2-Setup.exe [Accessed 15 Nov. 2023].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
